@@ -17,6 +17,8 @@ Exercise 2:
 // Complete Exercise 2 below...
 
 
+foods.push('cheeseburger');
+foods.push('pizza');
 
 console.log('Exercise 2 Result: ',  foods);
 
