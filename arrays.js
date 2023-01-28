@@ -84,10 +84,8 @@ Exercise 9:
 */
 
 // Complete Exercise 9 below...
-
-
-
-// console.log('Exercise 9 Result: ', allFoods);
+let allFoods = foods.join(' -> ');
+console.log('Exercise 9 Result: ', allFoods);
 
 /*
 Exercise 10:
@@ -95,10 +93,8 @@ Exercise 10:
 */
 
 // Complete Exercise 10 below...
-
-
-
-// console.log('Exercise 10 Result: ', hasSoup);
+let hasSoup = foods.includes('soup');
+console.log('Exercise 10 Result: ', hasSoup);
 
 /*
 Exercise 11:
