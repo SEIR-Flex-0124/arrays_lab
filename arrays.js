@@ -4,7 +4,7 @@ Exercise 1:
 */
 
 // Exercise 1 has been completed for you...
-console.log ('Hello World')
+
 const foods = [];
 
 console.log('Exercise 1 Result: ', foods);
@@ -17,7 +17,7 @@ Exercise 2:
 // Complete Exercise 2 below...
 
 
-
+foods.push('pizza', 'cheeseburger')
 console.log('Exercise 2 Result: ',  foods);
 
 /*
@@ -27,7 +27,7 @@ Exercise 3:
 
 // Complete Exercise 3 below...
 
-
+foods.unshift ("taco");
 
 console.log('Exercise 3 Result: ', foods);
 
@@ -38,7 +38,7 @@ Exercise 4:
 
 // Complete Exercise 4 below...
 
-
+let favFood = foods [1]
 
 console.log('Exercise 4 Result: ', favFood);
 
@@ -49,7 +49,7 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
-
+foods.splice (2,0, "tofu")
 
 console.log('Exercise 5 Result: ', foods);
 
@@ -60,7 +60,7 @@ Exercise 6:
 
 // Complete Exercise 6 below...
 
-
+foods.splice (1,1, "sushi", "cupcake" )
 
 console.log('Exercise 6 Result: ', foods);
 
@@ -72,7 +72,7 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
-
+let yummy = foods.slice(1, 3);
 
 console.log('Exercise 7 Result: ', yummy);
 
@@ -83,7 +83,7 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
-
+let soyIdx = foods.indexOf("tofu");
 
 console.log('Exercise 8 Result: ', soyIdx);
 
@@ -95,9 +95,13 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
+let allFoods = foods.join (" -> ");
+
+//allFoods.join(' -> ')
 
 
 console.log('Exercise 9 Result: ', allFoods);
+
 
 /*
 Exercise 10:
@@ -106,6 +110,33 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
+// let hasSoup = true;
+// // 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' 
+//   for(i = 0; i < foods.length; i++){
+//   //console.log(foods[i])
+//   if(foods[i] !== "soup"){
+//     console.log(`not soup`)
+
+//   }
+//   else {console.log("this is soup")}
+// }
+
+//let hasSoup = foods.includes('soup');
+// my includes statement is above ^, includes statement we went over in class below:
+let hasSoup;
+if(foods.includes('soup')) {
+  hasSoup = true;
+}
+else {
+  hasSoup = false;
+}
+
+//let hasSoup = Boolean("true");
+ // if (typeof foods === 'soup')
+
+//  if (foods === "soup") {
+//   var hasSoup = "true";
+// }
 
 
 console.log('Exercise 10 Result: ', hasSoup);
@@ -123,10 +154,12 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
+let odds = nums.filter((num) => num % 2 === 1);
 
+odds.forEach(odds => {
 
 console.log('Exercise 11 Result: ', odds);
-
+})
 /*
 Exercise 12:
   - Use the loop to iterate through the same nums array and add the number to arrays named fizz, buzz and/or fizzbuzz based upon the following:
@@ -182,6 +215,23 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
+// const numArrays = [
+// 	[100, 5, 23], //index 0 i the entire array
+// 	[15, 21, 72, 9],
+// 	[45, 66],
+// 	[7, 81, 90]
+// ];
+let total = 0;
+
+//nested for loops below
+for(let i = 0; i < numArrays.length; i++){
+  //console.log(numArrays[i]);
+  for(let j = 0; j < numArrays[i].length; j++){ //saying j is less than the length of the array (3)
+    //console.log(numArrays[i][j]);
+   // console.log('i is ${i} and j is ${j} and so numArrays is ${numArrays[i][j]')
+    total += numArrays[i][j]; //numArrays, index 0 of the four arrays, and then index 0 of those individual arrays
+  }
+}
 
 
 console.log('Exercise 15 Result: ', total);
