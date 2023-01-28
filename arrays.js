@@ -105,13 +105,21 @@ Exercise 11:
   - Hint: Initialize the odds variable to an empty array before the iteration.
 */
 
-// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
 
+let odds = [];
+nums.forEach((num) => {
+  if(num % 2 === 1) {
+    odds.push(num);
+  }
+});
 
-// console.log('Exercise 11 Result: ', odds);
+
+
+console.log('Exercise 11 Result: ', odds);
 
 /*
 Exercise 12:
