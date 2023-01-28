@@ -185,25 +185,27 @@ let numList = numArrays[numArrays.length-1];
 
 console.log('Exercise 13 Result: ', numList);
 
-// /*
-// Exercise 14:
-//   - Given the above numArrays array, access the number 66 and assign to a variable named num.
-// */
+/*
+Exercise 14:
+  - Given the above numArrays array, access the number 66 and assign to a variable named num.
+*/
 
-// // Complete Exercise 14 below...
+// Complete Exercise 14 below...
 
+// console.log(numArrays.indexOf(66))
+let num = numArrays[2][1];
 
+console.log('Exercise 14 Result: ', num);
 
-// console.log('Exercise 14 Result: ', num);
+/*
+Exercise 15:
+  - Given the above numArrays array, use nested loops to sum up all the numbers contained within numArrays and assign to a variable named total.
+  - Hint: Be sure to declare and initialize the total variable before the iterations.
+*/
 
-// /*
-// Exercise 15:
-//   - Given the above numArrays array, use nested loops to sum up all the numbers contained within numArrays and assign to a variable named total.
-//   - Hint: Be sure to declare and initialize the total variable before the iterations.
-// */
+// Complete Exercise 15 below...
 
-// // Complete Exercise 15 below...
+let total = 0;
+numArrays.forEach((nmList, lsIdx) => {nmList.forEach((nm, idx) => {total += nm;});})
 
-
-
-// console.log('Exercise 15 Result: ', total);
+console.log('Exercise 15 Result: ', total);
