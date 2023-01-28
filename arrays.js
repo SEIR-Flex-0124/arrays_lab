@@ -16,9 +16,9 @@ Exercise 2:
 
 // Complete Exercise 2 below...
 
+foods.push('pizza', 'cheeseburger');
 
-
-console.log('Exercise 2 Result: ',  foods);
+console.log('Exercise 2 Result: ', foods);
 
 /*
 Exercise 3:
@@ -27,7 +27,7 @@ Exercise 3:
 
 // Complete Exercise 3 below...
 
-
+foods.unshift('taco');
 
 console.log('Exercise 3 Result: ', foods);
 
@@ -38,7 +38,7 @@ Exercise 4:
 
 // Complete Exercise 4 below...
 
-
+let favFood = foods[1];
 
 console.log('Exercise 4 Result: ', favFood);
 
@@ -49,7 +49,7 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
-
+foods.splice(1, 0, 'tofu');
 
 console.log('Exercise 5 Result: ', foods);
 
@@ -82,8 +82,8 @@ Exercise 8:
 */
 
 // Complete Exercise 8 below...
-
-
+// let soyIdx = goods.indexOf('tofu');
+//console.log('exercise 8 result: ', soyIdx); -- will output a number
 
 console.log('Exercise 8 Result: ', soyIdx);
 
@@ -106,7 +106,8 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
-
+//answer from zach: fruits.includes ("Mango"); ... this will scan the array for the value mango
+//let hasSoud = goods.includes('soup');
 
 console.log('Exercise 10 Result: ', hasSoup);
 
@@ -118,6 +119,13 @@ Exercise 11:
     > https://www.youtube.com/watch?v=Yf6whlVj5qA&t=32s
   - Hint: Initialize the odds variable to an empty array before the iteration.
 */
+
+// answer from zach. set up your loop with a tree statment. you have to make an if statement
+//for(i = 0; 1< nums.length; i++) {
+//   if (nums[i] % 2 !== 0) {
+//     odds.push(nums[i])}
+//   }
+// }
 
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
