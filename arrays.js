@@ -122,22 +122,25 @@ else {hasSoup = false;};
 
 console.log('Exercise 10 Result: ', hasSoup);
 
-// /*
-// Exercise 11:
-//   - Use either the for, for of, or forEach loops to iterate through the provided nums array and add each odd number to a new array named odds.
-//   - Some helpful video about looping over arrays
-//     > https://www.youtube.com/watch?v=JFf6ogtBUdo&t=144s
-//     > https://www.youtube.com/watch?v=Yf6whlVj5qA&t=32s
-//   - Hint: Initialize the odds variable to an empty array before the iteration.
-// */
+/*
+Exercise 11:
+  - Use either the for, for of, or forEach loops to iterate through the provided nums array and add each odd number to a new array named odds.
+  - Some helpful video about looping over arrays
+    > https://www.youtube.com/watch?v=JFf6ogtBUdo&t=144s
+    > https://www.youtube.com/watch?v=Yf6whlVj5qA&t=32s
+  - Hint: Initialize the odds variable to an empty array before the iteration.
+*/
 
-// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
-// // Complete Exercise 11 below...
+// Complete Exercise 11 below...
 
+let odds = [];
+nums.forEach((num, idx) => {
+  if (num % 2 === 1) {odds.push(num);};
+})
 
-
-// console.log('Exercise 11 Result: ', odds);
+console.log('Exercise 11 Result: ', odds);
 
 // /*
 // Exercise 12:
