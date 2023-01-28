@@ -49,7 +49,7 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
-foods.splice(1, 0, 'tofu');
+foods.splice(2, 0, 'tofu');
 
 console.log('Exercise 5 Result: ', foods);
 
@@ -76,7 +76,7 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
-let yummy = foods.slice(2, 4);
+let yummy = foods.slice(1, 3);
 
 
 
@@ -101,14 +101,6 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-for(i = 0; i < foods.length; i++) {
-  if(foods[i] === 'tofu') {
-    foods.splice(i, 1,);
-    let newSpot = foods.indexOf('cheeseburger')
-    foods.splice(newSpot, 0, 'tofu')
-  }
-}
-
 let allFoods = foods.join(" -> ");
 
 console.log('Exercise 9 Result: ', allFoods);
@@ -120,7 +112,14 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
-let hasSoup = foods.includes('soup');
+let hasSoup; 
+
+if(foods.includes('soup') === true) {
+ hasSoup = true;
+} else {
+  hasSoup = false;
+}
+
 
 console.log('Exercise 10 Result: ', hasSoup);
 
