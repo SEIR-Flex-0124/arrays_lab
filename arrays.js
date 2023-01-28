@@ -166,24 +166,24 @@ console.log('  fizz:', fizz);
 console.log('  buzz:', buzz);
 console.log('  fizzbuzz:', fizzbuzz);
 
-// /*
-// Exercise 13:
-//   - Given the below numArrays array of arrays (two-dimensional array), assign the last nested array to a variable named numList.
-//   - Assume you don't know how many nested arrays numArrays contains.
-// */
+/*
+Exercise 13:
+  - Given the below numArrays array of arrays (two-dimensional array), assign the last nested array to a variable named numList.
+  - Assume you don't know how many nested arrays numArrays contains.
+*/
 
-// const numArrays = [
-// 	[100, 5, 23],
-// 	[15, 21, 72, 9],
-// 	[45, 66],
-// 	[7, 81, 90]
-// ];
+const numArrays = [
+	[100, 5, 23],
+	[15, 21, 72, 9],
+	[45, 66],
+	[7, 81, 90]
+];
 
-// // Complete Exercise 13 below...
+// Complete Exercise 13 below...
 
+let numList = numArrays[numArrays.length-1];
 
-
-// console.log('Exercise 13 Result: ', numList);
+console.log('Exercise 13 Result: ', numList);
 
 // /*
 // Exercise 14:
