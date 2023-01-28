@@ -4,7 +4,7 @@ Exercise 1:
 */
 
 // Exercise 1 has been completed for you...
-
+console.log ('Hello World')
 const foods = [];
 
 console.log('Exercise 1 Result: ', foods);
