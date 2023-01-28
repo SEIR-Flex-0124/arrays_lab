@@ -206,6 +206,7 @@ Exercise 15:
 // Complete Exercise 15 below...
 
 let total = 0;
+//for each number in each array, add to sum
 numArrays.forEach((nmList, lsIdx) => {nmList.forEach((nm, idx) => {total += nm;});})
 
 console.log('Exercise 15 Result: ', total);
