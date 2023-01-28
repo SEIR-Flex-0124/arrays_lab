@@ -195,7 +195,7 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-const numList = numArrays[3];
+const numList = numArrays[numArrays.length-1]; 
 
 console.log('Exercise 13 Result: ', numList);
 
