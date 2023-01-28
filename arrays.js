@@ -15,6 +15,7 @@ Exercise 2:
 */
 
 // Complete Exercise 2 below...
+foods.push("pizza", "cheeseburger");
 
 
 
@@ -26,6 +27,7 @@ Exercise 3:
 */
 
 // Complete Exercise 3 below...
+foods.splice(0, 0, "taco" );
 
 
 
@@ -37,7 +39,7 @@ Exercise 4:
 */
 
 // Complete Exercise 4 below...
-
+let favFood = foods[1];
 
 
 console.log('Exercise 4 Result: ', favFood);
@@ -48,7 +50,7 @@ Exercise 5:
 */
 
 // Complete Exercise 5 below...
-
+foods.splice(2,0, "tofu")
 
 
 console.log('Exercise 5 Result: ', foods);
@@ -59,6 +61,7 @@ Exercise 6:
 */
 
 // Complete Exercise 6 below...
+foods.splice(1, 1, "sushi", "cupcake");
 
 
 
@@ -71,6 +74,7 @@ Exercise 7:
 */
 
 // Complete Exercise 7 below...
+let yummy = foods.splice(1, 2, ["sushi", "cupake"])
 
 
 
@@ -82,6 +86,7 @@ Exercise 8:
 */
 
 // Complete Exercise 8 below...
+let soyIdx =(foods.indexOf("tofu")) 
 
 
 
@@ -94,6 +99,7 @@ Exercise 9:
 */
 
 // Complete Exercise 9 below...
+let allFoods = 
 
 
 
@@ -105,6 +111,7 @@ Exercise 10:
 */
 
 // Complete Exercise 10 below...
+
 
 
 
