@@ -5,9 +5,9 @@ Exercise 1:
 
 // Exercise 1 has been completed for you...
 
-const foods = [];
+// const foods = [];
 
-console.log('Exercise 1 Result: ', foods);
+// console.log(foods);
 
 /*
 Exercise 2:
@@ -16,9 +16,10 @@ Exercise 2:
 
 // Complete Exercise 2 below...
 
+// let foods = [];
+// foods.push('pizza', 'cheeseburger');
 
-
-console.log('Exercise 2 Result: ',  foods);
+// console.log(foods);
 
 /*
 Exercise 3:
@@ -26,10 +27,13 @@ Exercise 3:
 */
 
 // Complete Exercise 3 below...
+let foods = [];
+foods.push('pizza', 'cheeseburger');
+foods.unshift('taco');
+console.log(foods);
 
 
-
-console.log('Exercise 3 Result: ', foods);
+// console.log('Exercise 3 Result: ', foods);
 
 /*
 Exercise 4:
@@ -40,7 +44,7 @@ Exercise 4:
 
 
 
-console.log('Exercise 4 Result: ', favFood);
+// console.log('Exercise 4 Result: ', favFood);
 
 /*
 Exercise 5:
@@ -51,7 +55,7 @@ Exercise 5:
 
 
 
-console.log('Exercise 5 Result: ', foods);
+// console.log('Exercise 5 Result: ', foods);
 
 /*
 Exercise 6:
@@ -62,7 +66,7 @@ Exercise 6:
 
 
 
-console.log('Exercise 6 Result: ', foods);
+// console.log('Exercise 6 Result: ', foods);
 
 /*
 Exercise 7:
@@ -74,7 +78,7 @@ Exercise 7:
 
 
 
-console.log('Exercise 7 Result: ', yummy);
+// console.log('Exercise 7 Result: ', yummy);
 
 /*
 Exercise 8:
@@ -85,7 +89,7 @@ Exercise 8:
 
 
 
-console.log('Exercise 8 Result: ', soyIdx);
+// console.log('Exercise 8 Result: ', soyIdx);
 
 /*
 Exercise 9:
@@ -97,7 +101,7 @@ Exercise 9:
 
 
 
-console.log('Exercise 9 Result: ', allFoods);
+// console.log('Exercise 9 Result: ', allFoods);
 
 /*
 Exercise 10:
@@ -108,7 +112,7 @@ Exercise 10:
 
 
 
-console.log('Exercise 10 Result: ', hasSoup);
+// console.log('Exercise 10 Result: ', hasSoup);
 
 /*
 Exercise 11:
@@ -119,13 +123,13 @@ Exercise 11:
   - Hint: Initialize the odds variable to an empty array before the iteration.
 */
 
-const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
 
 
-console.log('Exercise 11 Result: ', odds);
+// console.log('Exercise 11 Result: ', odds);
 
 /*
 Exercise 12:
@@ -139,10 +143,10 @@ Exercise 12:
 
 
 
-console.log('Exercise 12 Results:');
-console.log('  fizz:', fizz);
-console.log('  buzz:', buzz);
-console.log('  fizzbuzz:', fizzbuzz);
+// console.log('Exercise 12 Results:');
+// console.log('  fizz:', fizz);
+// console.log('  buzz:', buzz);
+// console.log('  fizzbuzz:', fizzbuzz);
 
 /*
 Exercise 13:
@@ -150,18 +154,18 @@ Exercise 13:
   - Assume you don't know how many nested arrays numArrays contains.
 */
 
-const numArrays = [
-	[100, 5, 23],
-	[15, 21, 72, 9],
-	[45, 66],
-	[7, 81, 90]
-];
+// const numArrays = [
+// 	[100, 5, 23],
+// 	[15, 21, 72, 9],
+// 	[45, 66],
+// 	[7, 81, 90]
+// ];
 
 // Complete Exercise 13 below...
 
 
 
-console.log('Exercise 13 Result: ', numList);
+// console.log('Exercise 13 Result: ', numList);
 
 /*
 Exercise 14:
@@ -172,7 +176,7 @@ Exercise 14:
 
 
 
-console.log('Exercise 14 Result: ', num);
+// console.log('Exercise 14 Result: ', num);
 
 /*
 Exercise 15:
@@ -184,4 +188,4 @@ Exercise 15:
 
 
 
-console.log('Exercise 15 Result: ', total);
+// console.log('Exercise 15 Result: ', total);
