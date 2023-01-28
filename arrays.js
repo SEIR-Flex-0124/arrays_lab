@@ -142,22 +142,29 @@ nums.forEach((num, idx) => {
 
 console.log('Exercise 11 Result: ', odds);
 
-// /*
-// Exercise 12:
-//   - Use the loop to iterate through the same nums array and add the number to arrays named fizz, buzz and/or fizzbuzz based upon the following:
-//   	- Add to the fizz array if the number is evenly divisible by 3.
-//   	- Add to the buzz array if the number is evenly divisible by 5.
-//   	- Add to the fizzbuzz array if the number is evenly divisible by 3 & 5.
-// */
+/*
+Exercise 12:
+  - Use the loop to iterate through the same nums array and add the number to arrays named fizz, buzz and/or fizzbuzz based upon the following:
+  	- Add to the fizz array if the number is evenly divisible by 3.
+  	- Add to the buzz array if the number is evenly divisible by 5.
+  	- Add to the fizzbuzz array if the number is evenly divisible by 3 & 5.
+*/
 
-// // Complete Exercise 12 below...
+// Complete Exercise 12 below...
 
+let fizz = [], buzz = [], fizzbuzz = [];
+nums.forEach((num, idx) => {
+  if (num % 3 === 0) {
+    if (num % 5 === 0) {fizzbuzz.push(num);}
+    else {fizz.push(num);}
+  }
+  else if (num % 5 === 0) {buzz.push(num);}
+})
 
-
-// console.log('Exercise 12 Results:');
-// console.log('  fizz:', fizz);
-// console.log('  buzz:', buzz);
-// console.log('  fizzbuzz:', fizzbuzz);
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
 
 // /*
 // Exercise 13:
