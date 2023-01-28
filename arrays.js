@@ -162,15 +162,17 @@ let buzz = []
 let fizzbuzz = []
 
 for(i = 0; i < nums.length; i++) {
-  if(nums[i] % 3 == 0) {
-    fizz.push(nums[i]);
-  }
-  if(nums[i] % 5 == 0) {
-    buzz.push(nums[i]);
-  } 
+  
   if(nums[i] % 5 == 0 && nums[i] % 3 == 0) {
     fizzbuzz.push(nums[i]);
+  }
+  else if(nums[i] % 3 == 0) {
+    fizz.push(nums[i]);
+  }
+  else if(nums[i] % 5 == 0) {
+    buzz.push(nums[i]);
   } 
+  
 }
 
 console.log('Exercise 12 Results:');
