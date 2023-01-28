@@ -177,18 +177,19 @@ console.log('  fizzbuzz:', fizzbuzz);
 //   - Assume you don't know how many nested arrays numArrays contains.
 // */
 
-// const numArrays = [
-// 	[100, 5, 23],
-// 	[15, 21, 72, 9],
-// 	[45, 66],
-// 	[7, 81, 90]
-// ];
+const numArrays = [
+	[100, 5, 23],
+	[15, 21, 72, 9],
+	[45, 66],
+	[7, 81, 90]
+];
 
 // // Complete Exercise 13 below...
 
 
+let numList = numArrays[numArrays.length -1]
 
-// console.log('Exercise 13 Result: ', numList);
+console.log('Exercise 13 Result: ', numList);
 
 // /*
 // Exercise 14:
@@ -197,9 +198,9 @@ console.log('  fizzbuzz:', fizzbuzz);
 
 // // Complete Exercise 14 below...
 
+let num = numArrays[2][1]
 
-
-// console.log('Exercise 14 Result: ', num);
+console.log('Exercise 14 Result: ', num);
 
 // /*
 // Exercise 15:
@@ -209,6 +210,11 @@ console.log('  fizzbuzz:', fizzbuzz);
 
 // // Complete Exercise 15 below...
 
+let total = 0
+for(let i = 0; i < numArrays.length; i++) {
+  for(let j = 0; j < numArrays[i].length; j++) {
+    total += numArrays[i][j];
+  }
+}
 
-
-// console.log('Exercise 15 Result: ', total);
+console.log('Exercise 15 Result: ', total);
