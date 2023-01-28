@@ -5,9 +5,8 @@ Exercise 1:
 
 // Exercise 1 has been completed for you...
 
-// const foods = [];
-
-// console.log(foods);
+const foods = [];
+console.log('Exercise 1 Result: ', foods);
 
 /*
 Exercise 2:
@@ -16,10 +15,9 @@ Exercise 2:
 
 // Complete Exercise 2 below...
 
-// let foods = [];
-// foods.push('pizza', 'cheeseburger');
 
-// console.log(foods);
+foods.push('pizza', 'cheeseburger');
+console.log('Exercise 2 Result: ', foods);
 
 /*
 Exercise 3:
@@ -27,13 +25,9 @@ Exercise 3:
 */
 
 // Complete Exercise 3 below...
-let foods = [];
-foods.push('pizza', 'cheeseburger');
+
 foods.unshift('taco');
-console.log(foods);
-
-
-// console.log('Exercise 3 Result: ', foods);
+console.log('Exercise 3 Result: ', foods);
 
 /*
 Exercise 4:
@@ -42,9 +36,8 @@ Exercise 4:
 
 // Complete Exercise 4 below...
 
-
-
-// console.log('Exercise 4 Result: ', favFood);
+let favFood = foods[1];
+console.log('Exercise 4 Result: ', favFood);
 
 /*
 Exercise 5:
@@ -52,10 +45,8 @@ Exercise 5:
 */
 
 // Complete Exercise 5 below...
-
-
-
-// console.log('Exercise 5 Result: ', foods);
+foods.splice(2, 0, 'tofu');
+console.log('Exercise 5 Result: ', foods);
 
 /*
 Exercise 6:
@@ -63,10 +54,8 @@ Exercise 6:
 */
 
 // Complete Exercise 6 below...
-
-
-
-// console.log('Exercise 6 Result: ', foods);
+foods.splice(1, 1, 'sushi', 'cupcake');
+console.log('Exercise 6 Result: ', foods);
 
 /*
 Exercise 7:
@@ -75,10 +64,8 @@ Exercise 7:
 */
 
 // Complete Exercise 7 below...
-
-
-
-// console.log('Exercise 7 Result: ', yummy);
+let yummy = foods.slice(1, 3);
+console.log('Exercise 7 Result: ', yummy);
 
 /*
 Exercise 8:
@@ -87,9 +74,8 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
-
-
-// console.log('Exercise 8 Result: ', soyIdx);
+let soyIdx = foods.indexOf('tofu');
+console.log('Exercise 8 Result: ', soyIdx);
 
 /*
 Exercise 9:
