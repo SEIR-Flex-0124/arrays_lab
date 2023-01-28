@@ -95,8 +95,8 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-console.log(foods); //i have undefinedtaco for the first value and idk why, so here's a test
-console.log(foods[0]);
+// console.log(foods); //i have undefinedtaco for the first value and idk why, so here's a test //update: allFoods had 'undefined' as default value so i had to define it as ''
+// console.log(foods[0]);
 let allFoods = '';
 foods.forEach((food, idx) => {
   if (allFoods) {
@@ -107,16 +107,20 @@ foods.forEach((food, idx) => {
 
 console.log('Exercise 9 Result: ', allFoods);
 
-// /*
-// Exercise 10:
-//   - Assign a boolean to a variable named hasSoup depending upon whether or not the foods array includes the string 'soup'.
-// */
+/*
+Exercise 10:
+  - Assign a boolean to a variable named hasSoup depending upon whether or not the foods array includes the string 'soup'.
+*/
 
-// // Complete Exercise 10 below...
+// Complete Exercise 10 below...
 
+console.log(foods.indexOf('soup'))
+let hasSoup; // = Boolean(foods.indexOf('soup'));
+if (foods.indexOf('soup') > -1) {hasSoup = true}
+else {hasSoup = false;};
+//thank you to the second answer in https://stackoverflow.com/questions/31155477/convert-truthy-or-falsy-to-an-explicit-boolean-i-e-to-true-or-false for enlightening me of Boolean() too bad negative numbers are still truthy 
 
-
-// console.log('Exercise 10 Result: ', hasSoup);
+console.log('Exercise 10 Result: ', hasSoup);
 
 // /*
 // Exercise 11:
