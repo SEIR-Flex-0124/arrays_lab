@@ -60,7 +60,7 @@ Exercise 6:
 
 // Complete Exercise 6 below...
 
-
+foods.splice(2, 1,'sushi', 'cupcake');
 
 console.log('Exercise 6 Result: ', foods);
 
@@ -72,7 +72,7 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
-
+let yummy = foods.slice(2, 4);
 
 console.log('Exercise 7 Result: ', yummy);
 
@@ -82,8 +82,8 @@ Exercise 8:
 */
 
 // Complete Exercise 8 below...
-// let soyIdx = goods.indexOf('tofu');
-//console.log('exercise 8 result: ', soyIdx); -- will output a number
+
+let soyIdx = foods.indexOf('tofu');
 
 console.log('Exercise 8 Result: ', soyIdx);
 
@@ -95,7 +95,9 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-
+foods.splice(1, 1);
+foods.splice(3, 0, 'tofu');
+let allFoods = foods.join(' -> ');
 
 console.log('Exercise 9 Result: ', allFoods);
 
@@ -106,8 +108,7 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
-//answer from zach: fruits.includes ("Mango"); ... this will scan the array for the value mango
-//let hasSoud = goods.includes('soup');
+let hasSoup = foods.includes('soup');
 
 console.log('Exercise 10 Result: ', hasSoup);
 
@@ -120,18 +121,32 @@ Exercise 11:
   - Hint: Initialize the odds variable to an empty array before the iteration.
 */
 
-// answer from zach. set up your loop with a tree statment. you have to make an if statement
-//for(i = 0; 1< nums.length; i++) {
-//   if (nums[i] % 2 !== 0) {
-//     odds.push(nums[i])}
-//   }
-// }
-
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
+let odds = [];
+for ()
 
+
+
+
+
+
+
+
+// // set up your loop with a tree statment. you have to make an if statement
+// //for(i = 0; 1< nums.length; i++) {
+// //   if (nums[i] % 2 !== 0) {
+// //     odds.push(nums[i])}
+// //   }
+// // }
+// /*
+// const odds = []
+
+// nums.forEach(function(num){
+//   if(num % 2 !== 0) odds.push(num)
+// })
 
 console.log('Exercise 11 Result: ', odds);
 
@@ -143,9 +158,34 @@ Exercise 12:
   	- Add to the fizzbuzz array if the number is evenly divisible by 3 & 5.
 */
 
+
+
+
+
+
+
+
+
+
+
+
 // Complete Exercise 12 below...
+// let fizz = [];
+// let buzz = [];
+// let fizzbuzz = [];
 
-
+// for (i=0; i < nums.length; i++) {
+//   if (nums[i] % 3){
+// [fizz.push(nums[i])]
+// } 
+// else if (nums[i] % 5 === 0) {
+// buzz.push(nums[i])
+//}
+// this statement goes on the very first ... else if (nums[i]%3 === 0 && nums[i] % 5 === 0) {
+// fizzbuzz.push(nums[i])
+// }
+// else console.log(i) {
+// }
 
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
@@ -169,6 +209,15 @@ const numArrays = [
 
 
 
+
+
+
+
+
+
+// you know you need the last array
+// const numList = numArrays[numArrays.length-1]; .. you have to subtract 1 
+
 console.log('Exercise 13 Result: ', numList);
 
 /*
@@ -179,6 +228,16 @@ Exercise 14:
 // Complete Exercise 14 below...
 
 
+
+
+
+
+
+
+
+
+
+//let num = numArrays [2][1]
 
 console.log('Exercise 14 Result: ', num);
 
@@ -191,5 +250,22 @@ Exercise 15:
 // Complete Exercise 15 below...
 
 
+
+
+
+
+
+
+
+/*
+this is a nested loop
+for (let i=0; i < numArrays.length; i++) {
+  console.log(numArrays[i]);
+  for (let j=0; j< numArrays[i].length; j++) {
+    console.log(numArrays[i][j]);
+    total += numArrays[i][j];
+  }
+}
+*/
 
 console.log('Exercise 15 Result: ', total);
