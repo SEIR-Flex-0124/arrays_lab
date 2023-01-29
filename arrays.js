@@ -15,8 +15,8 @@ Exercise 2:
 */
 
 // Complete Exercise 2 below...
-
-
+foods.push('pizza');
+foods.push('cheeseburger');
 
 console.log('Exercise 2 Result: ',  foods);
 
@@ -26,8 +26,6 @@ Exercise 3:
 */
 
 // Complete Exercise 3 below...
-
-
 
 console.log('Exercise 3 Result: ', foods);
 
@@ -48,7 +46,6 @@ Exercise 5:
 */
 
 // Complete Exercise 5 below...
-
 
 
 console.log('Exercise 5 Result: ', foods);
@@ -73,8 +70,7 @@ Exercise 7:
 // Complete Exercise 7 below...
 
 
-
-console.log('Exercise 7 Result: ', yummy);
+console.log('Exercise 7 Result: ', 'yummy');
 
 /*
 Exercise 8:
@@ -96,7 +92,6 @@ Exercise 9:
 // Complete Exercise 9 below...
 
 
-
 console.log('Exercise 9 Result: ', allFoods);
 
 /*
@@ -105,7 +100,6 @@ Exercise 10:
 */
 
 // Complete Exercise 10 below...
-
 
 
 console.log('Exercise 10 Result: ', hasSoup);
@@ -123,8 +117,6 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
-
-
 console.log('Exercise 11 Result: ', odds);
 
 /*
@@ -138,11 +130,10 @@ Exercise 12:
 // Complete Exercise 12 below...
 
 
-
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
 console.log('  buzz:', buzz);
-console.log('  fizzbuzz:', fizzbuzz);
+console.log('  fizzbuzz:', fizzBuzz);
 
 /*
 Exercise 13:
@@ -171,7 +162,6 @@ Exercise 14:
 // Complete Exercise 14 below...
 
 
-
 console.log('Exercise 14 Result: ', num);
 
 /*
@@ -185,3 +175,4 @@ Exercise 15:
 
 
 console.log('Exercise 15 Result: ', total);
+
