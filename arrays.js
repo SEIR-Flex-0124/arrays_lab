@@ -49,7 +49,7 @@ Exercise 5:
 
 
 console.log('Exercise 5 Result: ', foods);
-
+foods.splice(2,0, 'tofu')
 /*
 Exercise 6:
   - Replace the string 'pizza' in the foods array with the strings 'sushi' & 'cupcake'.
