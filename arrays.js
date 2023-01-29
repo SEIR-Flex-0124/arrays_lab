@@ -187,6 +187,9 @@ const numArrays = [
 ];
 
 // Complete Exercise 13 below...
+let numList=[]
+numList= numArrays[numArrays.length-1];
+ 
 
 
 
