@@ -26,7 +26,7 @@ Exercise 3:
 */
 
 // Complete Exercise 3 below...
-
+foods.splice(0,0,'taco');
 console.log('Exercise 3 Result: ', foods);
 
 /*
