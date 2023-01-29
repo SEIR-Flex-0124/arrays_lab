@@ -91,6 +91,17 @@ Exercise 9:
 */
 
 // Complete Exercise 9 below...
+//let allFoods=foods.join('->') another way to answer this question.
+let allFoods = '';
+for (i = 0; i < foods.length; i++){
+  if(i != foods.length - 1 ){
+  allFoods += foods[i] + " -> "
+ 
+  } else {
+    allFoods += foods[i]
+  }
+
+}
 
 
 console.log('Exercise 9 Result: ', allFoods);
