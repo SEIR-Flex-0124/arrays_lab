@@ -74,7 +74,7 @@ Exercise 7:
 */
 
 // Complete Exercise 7 below...
-let yummy = foods.splice(1, 2, ["sushi", "cupake"])
+let yummy = foods.splice(1, 2, "sushi", "cupake")
 
 
 
@@ -97,9 +97,9 @@ Exercise 9:
   - Assign to a variable named allFoods the result of joining the strings in the foods array such that the result is the following single string:
     'taco -> sushi -> cupcake -> tofu -> cheeseburger'
 */
-
+console.log(foods)
 // Complete Exercise 9 below...
-let allFoods = 
+let allFoods = foods.join (" -> ")
 
 
 
@@ -111,7 +111,8 @@ Exercise 10:
 */
 
 // Complete Exercise 10 below...
-
+let hasSoup = (foods.includes("soup")); 
+    
 
 
 
@@ -128,7 +129,14 @@ Exercise 11:
 
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
+
 // Complete Exercise 11 below...
+const odds = [];
+nums.forEach((num) => {
+  if (num %2 === 1) {
+    odds.push(num);
+  }
+});
 
 
 
@@ -144,6 +152,36 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
+const fizz = [];
+const buzz = [];
+const fizzbuzz = [];
+
+const div3 = [];
+nums.forEach((num) => {
+  if (num % 3 === 0) {
+    div3.push(num)
+  }
+});
+
+fizz.push(div3);
+
+const div5 = [];
+nums.forEach((num) => {
+  if (num % 5 === 0) {
+    div5.push(num)
+  }
+})
+
+buzz.push(div5);
+
+const divBoth = [];
+nums.forEach((num) => {
+  if(num % 3 === 0 && num % 5 === 0) {
+    fizzbuzz.push(num)
+  }
+})
+
+console.log(divBoth)
 
 
 console.log('Exercise 12 Results:');
