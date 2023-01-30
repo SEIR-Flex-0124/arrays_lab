@@ -49,7 +49,7 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
-foods.splice(1, 0, 'tofu');
+foods.splice(2, 0, 'tofu');
 
 console.log('Exercise 5 Result: ', foods);
 
@@ -60,7 +60,7 @@ Exercise 6:
 
 // Complete Exercise 6 below...
 
-foods.splice(2, 1,'sushi', 'cupcake');
+foods.splice(1, 1,'sushi', 'cupcake');
 
 console.log('Exercise 6 Result: ', foods);
 
@@ -72,7 +72,7 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
-let yummy = foods.slice(2, 4);
+let yummy = foods.slice(1, 3);
 
 console.log('Exercise 7 Result: ', yummy);
 
@@ -95,8 +95,6 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-foods.splice(1, 1);
-foods.splice(3, 0, 'tofu');
 let allFoods = foods.join(' -> ');
 
 console.log('Exercise 9 Result: ', allFoods);
@@ -110,6 +108,17 @@ Exercise 10:
 
 let hasSoup = foods.includes('soup');
 
+/*
+ With the code above, I was able to get the console to output false. But I also wrote this piece of code, which is more explicit, but also seems more complicated than it needs to be when both code snippets seem to do the same thing?
+ let hasSoup;
+ if (foods.includes('soup') == true) {
+  hasSoup = true
+ }
+ else {
+  hasSoup = false
+ }
+*/
+  
 console.log('Exercise 10 Result: ', hasSoup);
 
 /*
@@ -125,28 +134,14 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
+// I initally wanted to run this piece of code, which seems to successfully return all the odd numbers from the array, but I reread the instructions and it's not a for, for of, or forEach loop: let odds = nums.filter((num) => num % 2 == 1); I'm wondering if there are multiple ways to get the same result, how do I know which method is better/preferred/superior/more efficient/etc. to use? Are loops the preferred way to code? 
+
 let odds = [];
-for ()
-
-
-
-
-
-
-
-
-// // set up your loop with a tree statment. you have to make an if statement
-// //for(i = 0; 1< nums.length; i++) {
-// //   if (nums[i] % 2 !== 0) {
-// //     odds.push(nums[i])}
-// //   }
-// // }
-// /*
-// const odds = []
-
-// nums.forEach(function(num){
-//   if(num % 2 !== 0) odds.push(num)
-// })
+for (let i=0; i<nums.length; i++) {
+  if ((nums[i] % 2) == 1){
+    odds.push(nums[i]);
+  }
+}
 
 console.log('Exercise 11 Result: ', odds);
 
@@ -158,34 +153,23 @@ Exercise 12:
   	- Add to the fizzbuzz array if the number is evenly divisible by 3 & 5.
 */
 
-
-
-
-
-
-
-
-
-
-
-
 // Complete Exercise 12 below...
-// let fizz = [];
-// let buzz = [];
-// let fizzbuzz = [];
 
-// for (i=0; i < nums.length; i++) {
-//   if (nums[i] % 3){
-// [fizz.push(nums[i])]
-// } 
-// else if (nums[i] % 5 === 0) {
-// buzz.push(nums[i])
-//}
-// this statement goes on the very first ... else if (nums[i]%3 === 0 && nums[i] % 5 === 0) {
-// fizzbuzz.push(nums[i])
-// }
-// else console.log(i) {
-// }
+let fizzbuzz = [];
+let fizz = [];
+let buzz = [];
+
+for (let i=0; i<nums.length; i++) {
+  if ((nums[i] % 3) === 0 && (nums[i] % 5) === 0) {
+    fizzbuzz.push(nums[i]);
+  } 
+  else if ((nums[i] % 3) === 0) {
+    fizz.push(nums[i]);
+  } 
+  else if ((nums[i] % 5) === 0) {
+    buzz.push(nums[i]);
+  }
+}
 
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
@@ -207,16 +191,7 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-
-
-
-
-
-
-
-
-// you know you need the last array
-// const numList = numArrays[numArrays.length-1]; .. you have to subtract 1 
+let numList = numArrays[numArrays.length-1];
 
 console.log('Exercise 13 Result: ', numList);
 
@@ -227,17 +202,7 @@ Exercise 14:
 
 // Complete Exercise 14 below...
 
-
-
-
-
-
-
-
-
-
-
-//let num = numArrays [2][1]
+let num = numArrays[2][1];
 
 console.log('Exercise 14 Result: ', num);
 
@@ -249,23 +214,11 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
-
-
-
-
-
-
-
-
-/*
-this is a nested loop
-for (let i=0; i < numArrays.length; i++) {
-  console.log(numArrays[i]);
-  for (let j=0; j< numArrays[i].length; j++) {
-    console.log(numArrays[i][j]);
+let total = 0;
+for (let i=0; i<numArrays.length; i++) {
+  for (let j=0; j<numArrays[i].length; j++) {
     total += numArrays[i][j];
   }
 }
-*/
 
 console.log('Exercise 15 Result: ', total);
