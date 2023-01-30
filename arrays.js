@@ -142,7 +142,6 @@ nums.forEach((num) => {
   }
 });
 
-
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
 console.log('  buzz:', buzz);
@@ -154,18 +153,17 @@ Exercise 13:
   - Assume you don't know how many nested arrays numArrays contains.
 */
 
-// const numArrays = [
-// 	[100, 5, 23],
-// 	[15, 21, 72, 9],
-// 	[45, 66],
-// 	[7, 81, 90]
-// ];
+const numArrays = [
+	[100, 5, 23],
+	[15, 21, 72, 9],
+	[45, 66],
+	[7, 81, 90]
+];
 
 // Complete Exercise 13 below...
+let numList = numArrays.pop();
 
-
-
-// console.log('Exercise 13 Result: ', numList);
+console.log('Exercise 13 Result: ', numList);
 
 /*
 Exercise 14:
@@ -173,10 +171,9 @@ Exercise 14:
 */
 
 // Complete Exercise 14 below...
-
-
-
-// console.log('Exercise 14 Result: ', num);
+// console.log(numArrays [2][1]);
+let num = numArrays[2][1];
+console.log('Exercise 14 Result: ', num);
 
 /*
 Exercise 15:
