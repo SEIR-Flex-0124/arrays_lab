@@ -228,7 +228,17 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
+// code from Eric from class. This was the only one I cant fully wrap my head around. 
+let total = 0;
 
+for(let i = 0; i < numArrays.length; i++) {
+     // console.log(numArrays[i]);
+  for(let j = 0; j < numArrays[i].length; j++) {
+    // console.log(numArrays[i][j]);
+    //console.log(`i is ${i} and j is ${j} and so numarrays[i][j] is ${numArrays[i][j]}`)
+    total += numArrays[i][j]; //does += add?
+  }
+}
 
 
 console.log('Exercise 15 Result: ', total);
