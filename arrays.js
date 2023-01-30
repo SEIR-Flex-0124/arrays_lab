@@ -159,20 +159,20 @@ const fizzbuzz = [];
 const div3 = [];
 nums.forEach((num) => {
   if (num % 3 === 0) {
-    div3.push(num)
+    fizz.push(num)
   }
 });
 
-fizz.push(div3);
+
 
 const div5 = [];
 nums.forEach((num) => {
   if (num % 5 === 0) {
-    div5.push(num)
+    buzz.push(num)
   }
 })
 
-buzz.push(div5);
+
 
 const divBoth = [];
 nums.forEach((num) => {
@@ -180,8 +180,6 @@ nums.forEach((num) => {
     fizzbuzz.push(num)
   }
 })
-
-console.log(divBoth)
 
 
 console.log('Exercise 12 Results:');
@@ -202,6 +200,8 @@ const numArrays = [
 	[7, 81, 90]
 ];
 
+numList = (numArrays[3]);
+
 // Complete Exercise 13 below...
 
 
@@ -214,7 +214,9 @@ Exercise 14:
 */
 
 // Complete Exercise 14 below...
+console.table(numArrays);
 
+const num = (numArrays[2][1]);
 
 
 console.log('Exercise 14 Result: ', num);
