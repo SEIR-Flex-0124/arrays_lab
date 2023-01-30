@@ -117,8 +117,6 @@ nums.forEach((num) => {
   }
 });
 
-
-
 console.log('Exercise 11 Result: ', odds);
 
 /*
@@ -131,12 +129,24 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
+let fizz = [];
+let buzz = [];
+let fizzbuzz = [];
+nums.forEach((num) => {
+  if(num % 3 ===0 && num % 5 === 0) {
+    fizzbuzz.push(num);
+  } else if(num % 3 === 0) {
+    fizz.push(num);
+  } else if (num % 5 === 0) {
+     buzz.push(num);
+  }
+});
 
 
-// console.log('Exercise 12 Results:');
-// console.log('  fizz:', fizz);
-// console.log('  buzz:', buzz);
-// console.log('  fizzbuzz:', fizzbuzz);
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
 
 /*
 Exercise 13:
