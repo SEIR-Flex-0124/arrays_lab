@@ -16,7 +16,7 @@ Exercise 2:
 
 // Complete Exercise 2 below...
 
-
+foods.push("pizza", "cheeseburger");
 
 console.log('Exercise 2 Result: ',  foods);
 
@@ -30,6 +30,7 @@ Exercise 3:
 
 
 console.log('Exercise 3 Result: ', foods);
+foods.push("taco", "pizza", "cheeseburger");
 
 /*
 Exercise 4:
@@ -39,7 +40,7 @@ Exercise 4:
 // Complete Exercise 4 below...
 
 
-
+letfavefood= foods[1]
 console.log('Exercise 4 Result: ', favFood);
 
 /*
@@ -50,7 +51,7 @@ Exercise 5:
 // Complete Exercise 5 below...
 
 
-
+foods.splice(2, 0, 'tofu');
 console.log('Exercise 5 Result: ', foods);
 
 /*
@@ -61,7 +62,7 @@ Exercise 6:
 // Complete Exercise 6 below...
 
 
-
+foods.splice(1, 1, "sushi", "cupcake");
 console.log('Exercise 6 Result: ', foods);
 
 /*
@@ -73,8 +74,10 @@ Exercise 7:
 // Complete Exercise 7 below...
 
 
-
+foods.push("sushi", "cupcake");
 console.log('Exercise 7 Result: ', yummy);
+array[i] = yummy;
+
 
 /*
 Exercise 8:
@@ -86,6 +89,7 @@ Exercise 8:
 
 
 console.log('Exercise 8 Result: ', soyIdx);
+
 
 /*
 Exercise 9:
@@ -183,5 +187,14 @@ Exercise 15:
 // Complete Exercise 15 below...
 
 
+
+
+let total = 0;
+
+for(let i = 0; i < numArrays.length; i++) {
+  for(let j = 0; j < numArrays[i].length; j++) {
+    total += numArrays[i][j];
+  }
+}
 
 console.log('Exercise 15 Result: ', total);
