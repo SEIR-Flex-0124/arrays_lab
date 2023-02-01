@@ -6,7 +6,6 @@ Exercise 1:
 // Exercise 1 has been completed for you...
 
 const foods = [];
-
 console.log('Exercise 1 Result: ', foods);
 
 /*
@@ -16,8 +15,7 @@ Exercise 2:
 
 // Complete Exercise 2 below...
 
-
-
+foods.push("pizza", "cheeseburger");
 console.log('Exercise 2 Result: ',  foods);
 
 /*
@@ -28,7 +26,7 @@ Exercise 3:
 // Complete Exercise 3 below...
 
 
-
+foods.splice(0, 0, "taco")
 console.log('Exercise 3 Result: ', foods);
 
 /*
@@ -39,7 +37,7 @@ Exercise 4:
 // Complete Exercise 4 below...
 
 
-
+let favFood = foods[1];
 console.log('Exercise 4 Result: ', favFood);
 
 /*
@@ -50,7 +48,7 @@ Exercise 5:
 // Complete Exercise 5 below...
 
 
-
+foods.splice(3, 0, "tofu")
 console.log('Exercise 5 Result: ', foods);
 
 /*
@@ -61,7 +59,7 @@ Exercise 6:
 // Complete Exercise 6 below...
 
 
-
+foods.splice(1, 1, "sushi", "cupcake")
 console.log('Exercise 6 Result: ', foods);
 
 /*
@@ -73,7 +71,8 @@ Exercise 7:
 // Complete Exercise 7 below...
 
 
-
+let yummy = []
+yummy = foods.slice(1,3);
 console.log('Exercise 7 Result: ', yummy);
 
 /*
@@ -84,7 +83,7 @@ Exercise 8:
 // Complete Exercise 8 below...
 
 
-
+let soyIdx = foods.indexOf("tofu")
 console.log('Exercise 8 Result: ', soyIdx);
 
 /*
@@ -96,7 +95,15 @@ Exercise 9:
 // Complete Exercise 9 below...
 
 
+let allFoods = "";
+for (i = 0; i < foods.length; i++){
+  if(i != foods.length - 1 ){
+  allFoods += foods[i] + " -> "
+  } else {
+    allFoods += foods[i]
+  }
 
+}
 console.log('Exercise 9 Result: ', allFoods);
 
 /*
@@ -104,10 +111,18 @@ Exercise 10:
   - Assign a boolean to a variable named hasSoup depending upon whether or not the foods array includes the string 'soup'.
 */
 
+
 // Complete Exercise 10 below...
 
 
 
+let hasSoup = false;
+for(let i = 0; i < foods.length; i++){
+  if(foods[i] === "taco") {
+    hasSoup = true;
+  }
+}
+console.log(foods)
 console.log('Exercise 10 Result: ', hasSoup);
 
 /*
@@ -122,9 +137,13 @@ Exercise 11:
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
+let odds = []
+for(let i = 0; i < nums.length; i++){
+  if (nums[i] % 2 != 0){
+    odds.push(nums[i])
 
-
-
+  }
+}
 console.log('Exercise 11 Result: ', odds);
 
 /*
@@ -136,7 +155,22 @@ Exercise 12:
 */
 
 // Complete Exercise 12 below...
+let fizz = [];
+let buzz = [];
+let fizzbuzz = [];
 
+for(let i = 0; i < nums.length; i++) {
+  if(nums[i] % 3 == 0){
+    fizz.push(nums[i])
+  } 
+  if(nums[i] % 5 == 0){
+    buzz.push(nums[i])
+  }
+  if(nums[i] % 3 === 0 && nums[i] % 5 === 0){
+    fizzbuzz.push(nums[i])
+  }
+
+}
 
 
 console.log('Exercise 12 Results:');
@@ -160,6 +194,7 @@ const numArrays = [
 // Complete Exercise 13 below...
 
 
+let numList = numArrays[numArrays.length - 1]
 
 console.log('Exercise 13 Result: ', numList);
 
@@ -170,7 +205,7 @@ Exercise 14:
 
 // Complete Exercise 14 below...
 
-
+let num = numArrays[2][1]
 
 console.log('Exercise 14 Result: ', num);
 
@@ -181,7 +216,24 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
+// let total = 0
+// console.log(numArrays)
+// for(let i = 0; i < numArrays[]; i++){
+//   console.log(numArrays[i])
+//   for (let j = 0; j < numArrays[i]; j++){
+//     total += numArrays[i][j]
+//   }
 
+// }
 
+               // Got this solution online. I understand how 
+               // how it works however I still want to learn why above nested for-
+               // loop dosen't work
+
+numArrays.forEach((row) => {
+  row.forEach((element) => {
+    total += element;
+  });
+});
 
 console.log('Exercise 15 Result: ', total);
