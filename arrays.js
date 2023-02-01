@@ -99,7 +99,6 @@ let allFoods = "";
 for (i = 0; i < foods.length; i++){
   if(i != foods.length - 1 ){
   allFoods += foods[i] + " -> "
- 
   } else {
     allFoods += foods[i]
   }
@@ -206,7 +205,7 @@ Exercise 14:
 
 // Complete Exercise 14 below...
 
-
+let num = numArrays[2][1]
 
 console.log('Exercise 14 Result: ', num);
 
@@ -217,7 +216,24 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
+// let total = 0
+// console.log(numArrays)
+// for(let i = 0; i < numArrays[]; i++){
+//   console.log(numArrays[i])
+//   for (let j = 0; j < numArrays[i]; j++){
+//     total += numArrays[i][j]
+//   }
 
+// }
 
+               // Got this solution online. I understand how 
+               // how it works however I still want to learn why above nested for-
+               // loop dosen't work
+
+numArrays.forEach((row) => {
+  row.forEach((element) => {
+    total += element;
+  });
+});
 
 console.log('Exercise 15 Result: ', total);
