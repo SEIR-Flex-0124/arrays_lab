@@ -15,7 +15,7 @@ Exercise 2:
 */
 
 // Complete Exercise 2 below...
-
+foods.push('pizza','cheeseburger')
 
 
 console.log('Exercise 2 Result: ',  foods);
@@ -27,7 +27,7 @@ Exercise 3:
 
 // Complete Exercise 3 below...
 
-
+foods.unshift('tacos')
 
 console.log('Exercise 3 Result: ', foods);
 
@@ -38,7 +38,7 @@ Exercise 4:
 
 // Complete Exercise 4 below...
 
-
+let favFood = foods[1];
 
 console.log('Exercise 4 Result: ', favFood);
 
