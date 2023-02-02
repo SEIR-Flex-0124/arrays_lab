@@ -16,8 +16,7 @@ Exercise 2:
 
 // Complete Exercise 2 below...
 
-
-
+foods.push('pizza','chesseburger');
 console.log('Exercise 2 Result: ',  foods);
 
 /*
@@ -27,8 +26,7 @@ Exercise 3:
 
 // Complete Exercise 3 below...
 
-
-
+foods.splice(0, 0, "taco")
 console.log('Exercise 3 Result: ', foods);
 
 /*
@@ -38,8 +36,7 @@ Exercise 4:
 
 // Complete Exercise 4 below...
 
-
-
+let favFood = foods[1]
 console.log('Exercise 4 Result: ', favFood);
 
 /*
@@ -48,9 +45,7 @@ Exercise 5:
 */
 
 // Complete Exercise 5 below...
-
-
-
+foods.splice(2, 0, 'tofu')
 console.log('Exercise 5 Result: ', foods);
 
 /*
@@ -60,8 +55,7 @@ Exercise 6:
 
 // Complete Exercise 6 below...
 
-
-
+foods.splice(1, 1, 'sushi', 'cupcake')
 console.log('Exercise 6 Result: ', foods);
 
 /*
@@ -72,8 +66,7 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
-
-
+let yummy = foods.slice(1,3);
 console.log('Exercise 7 Result: ', yummy);
 
 /*
@@ -83,8 +76,7 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
-
-
+let soyIdx = foods.indexOf('tofu')
 console.log('Exercise 8 Result: ', soyIdx);
 
 /*
@@ -94,9 +86,15 @@ Exercise 9:
 */
 
 // Complete Exercise 9 below...
+let allFoods = '';
 
-
-
+for ( let i = 0; i < foods.length; i++) {
+allFoods += foods[i];
+  if (i < foods.length - 1) {
+    allFoods += ' -> '
+  }
+  
+}
 console.log('Exercise 9 Result: ', allFoods);
 
 /*
@@ -105,9 +103,7 @@ Exercise 10:
 */
 
 // Complete Exercise 10 below...
-
-
-
+let hasSoup = false;
 console.log('Exercise 10 Result: ', hasSoup);
 
 /*
@@ -122,8 +118,13 @@ Exercise 11:
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
-
-
+let odds = [];
+for(let i = 0; i < nums.legnth; i++){
+  if(nums[i] % 2 !== 0){
+  odds.push(nums[i]) 
+    
+  }
+}
 
 console.log('Exercise 11 Result: ', odds);
 
@@ -136,8 +137,16 @@ Exercise 12:
 */
 
 // Complete Exercise 12 below...
-
-
+let fizz = [], buzz = [], fizzbuzz = [];
+for (let i = 0; i <nums.length; i++) {
+  if (nums[i] % 3 === 0 && nums[i] % 5 === 0) {
+    fizzbuzz.push(nums[i]);
+  } if (nums[i] % 3 === 0) {
+    fizz.push(nums[i]);
+  } if (nums[i] % 5 === 0) {
+    buzz.push(nums[i]);
+  }
+}
 
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
@@ -150,29 +159,30 @@ Exercise 13:
   - Assume you don't know how many nested arrays numArrays contains.
 */
 
-const numArrays = [
-	[100, 5, 23],
-	[15, 21, 72, 9],
-	[45, 66],
-	[7, 81, 90]
-];
+//const numArrays = [
+	//[100, 5, 23],
+  //[15, 21, 72, 9],
+  //[45, 66],
+	//[7, 81, 90]
+//];
 
 // Complete Exercise 13 below...
 
+//let numList=[]
+//numList= numArrays[numArrays.length-1];
 
-
-console.log('Exercise 13 Result: ', numList);
+//console.log('Exercise 13 Result: ', numList);
 
 /*
 Exercise 14:
   - Given the above numArrays array, access the number 66 and assign to a variable named num.
 */
-
+//Looked up 13 and 14 because i coundt figure them out and was lead to belive that these would work but they dont.
 // Complete Exercise 14 below...
 
+//let num= numArrays[2][1];
 
-
-console.log('Exercise 14 Result: ', num);
+//console.log('Exercise 14 Result: ', num);
 
 /*
 Exercise 15:
@@ -181,7 +191,20 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
+const numArrays = [
+  [100, 5, 23],
+  [15, 21, 72, 9],
+  [45, 66],
+  [7, 81, 90]
+];
+let total =0;
 
+for(let i = 0; i<numArrays.length; i++) {
+  console.log(numArrays[i]);
+  for(let j = 0; j < numArrays[i].length; j++) {
+    total += numArrays[i][j];
+  }
+}
 
 
 console.log('Exercise 15 Result: ', total);
