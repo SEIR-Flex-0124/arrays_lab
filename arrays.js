@@ -151,6 +151,22 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
+let buzz=[];
+let fizz=[];
+let fizzbuzz=[];
+
+for(let i=0; i<nums.length; i++){
+if(nums[i] % 3 === 0){
+  fizz.push(nums[i]);
+}
+if(nums[i] % 5 === 0){
+  buzz.push(nums[i]);
+}
+
+if(nums[i] % 15 === 0){
+  fizzbuzz.push(nums[i]);
+}
+}
 
 
 console.log('Exercise 12 Results:');
