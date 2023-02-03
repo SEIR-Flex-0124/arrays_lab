@@ -88,7 +88,7 @@ let allFoods = ' ';
 
 for (let i = 0; i < foods.length; i++) {
   allFoods += foods[i];
-  if (i > 0 && i <foods.length - 2) {
+  if (i >= 0 && i <foods.length - 1) {
     allFoods += ' -> '
   }
 }
@@ -100,8 +100,17 @@ console.log('Exercise 9 Result: ', allFoods)
 // */
 
 // // Complete Exercise 10 below...
+let hasSoup = " "
 
-// console.log('Exercise 10 Result: ', hasSoup)
+for (let i = 0; i < foods.length; i++) {
+  if (foods[i] === "soup") {
+    hasSoup += true
+  } else {
+    hasSoup += false
+  }
+}
+
+console.log('Exercise 10 Result: ', hasSoup)
 
 // /*
 // Exercise 11:
@@ -166,19 +175,19 @@ console.log('Exercise 9 Result: ', allFoods)
 // */
 
 // // Complete Exercise 15 below...
-const numArrays = [
-  [100, 5, 23],
-  [15, 21, 72, 9],
-  [45, 66],
-  [7, 81, 90]
-];
-let total = 0;
+// const numArrays = [
+//   [100, 5, 23],
+//   [15, 21, 72, 9],
+//   [45, 66],
+//   [7, 81, 90]
+// ];
+// let total = 0;
 
-for(let i = 0; i <numArrays.length; i++) {
-  // console.log(numArrays[i]);
-  for(let j = 0; j < numArrays[i].length; j++) {
-console.log(`j is ${i} and )
-  }
-}
+// for(let i = 0; i <numArrays.length; i++) {
+//   // console.log(numArrays[i]);
+//   for(let j = 0; j < numArrays[i].length; j++) {
+// console.log(`j is ${i} and` )
+//   }
+// }
 
-console.log('Exercise 15 Result: ', total)
+// console.log('Exercise 15 Result: ', total)
