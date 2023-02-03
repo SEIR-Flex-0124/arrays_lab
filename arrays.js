@@ -16,7 +16,7 @@ Exercise 2:
 
 // Complete Exercise 2 below...
 
-
+foods.push('pizza','cheeseburger');
 
 console.log('Exercise 2 Result: ',  foods);
 
@@ -27,7 +27,7 @@ Exercise 3:
 
 // Complete Exercise 3 below...
 
-
+foods.unshift('taco');
 
 console.log('Exercise 3 Result: ', foods);
 
@@ -38,7 +38,7 @@ Exercise 4:
 
 // Complete Exercise 4 below...
 
-
+let favFood = foods[1];
 
 console.log('Exercise 4 Result: ', favFood);
 
@@ -49,7 +49,7 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
-
+foods.splice(2,0,'tofu');
 
 console.log('Exercise 5 Result: ', foods);
 
@@ -60,7 +60,7 @@ Exercise 6:
 
 // Complete Exercise 6 below...
 
-
+foods.splice(1,1,'sushi','cupcake');
 
 console.log('Exercise 6 Result: ', foods);
 
@@ -72,7 +72,7 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
-
+let yummy = foods.splice(1,2,'sushi','cupcake');
 
 console.log('Exercise 7 Result: ', yummy);
 
@@ -82,8 +82,7 @@ Exercise 8:
 */
 
 // Complete Exercise 8 below...
-
-
+let soyIdx = foods.indexOf('tofu');
 
 console.log('Exercise 8 Result: ', soyIdx);
 
@@ -95,8 +94,7 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-
-
+let allFoods = foods.join(" -> ")
 console.log('Exercise 9 Result: ', allFoods);
 
 /*
@@ -106,7 +104,7 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
-
+let hasSoup = foods.includes('soup');
 
 console.log('Exercise 10 Result: ', hasSoup);
 
@@ -123,6 +121,11 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
+let odds = [];
+nums.forEach(function (num) {
+  if(num % 2!= 0)
+  odds.push(num)
+});
 
 
 console.log('Exercise 11 Result: ', odds);
@@ -137,7 +140,20 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
+let fizz = []
+let buzz = []
+let fizzbuzz = []
 
+
+nums.forEach(function (num) {
+  if(num % 3==0 && num % 5==0) {
+    fizzbuzz.push(num);
+  } else if(num % 3==0) {
+    fizz.push(num);
+  } else if(num% 5==0) {
+    buzz.push(num);
+  }
+});
 
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
@@ -158,7 +174,7 @@ const numArrays = [
 ];
 
 // Complete Exercise 13 below...
-
+let numList = numArrays[numArrays.length - 1]
 
 
 console.log('Exercise 13 Result: ', numList);
@@ -170,7 +186,7 @@ Exercise 14:
 
 // Complete Exercise 14 below...
 
-
+let num = numArrays[2][1]
 
 console.log('Exercise 14 Result: ', num);
 
@@ -181,7 +197,13 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
+let total = 0;
 
+for(let i = 0; i < numArrays.length; i++) {
+  for(let j = 0; j < numArrays[i].length; j++) {
+    total += numArrays[i][j];
+  }
+}
 
 
 console.log('Exercise 15 Result: ', total);
