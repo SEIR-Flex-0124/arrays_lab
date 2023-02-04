@@ -136,6 +136,9 @@ for (let i = 0; i < nums.length; i++) {
 }
 console.log('Exercise 11 Result: ', odds)
 
+// // link that helped me understand "%" or "remainder" to solve this problem! - SA
+// https://www.w3schools.com/jsref/jsref_operators.asp
+
 // /*
 // Exercise 12:
 //   - Use the loop to iterate through the same nums array and add the number to arrays named fizz, buzz and/or fizzbuzz based upon the following:
@@ -146,27 +149,69 @@ console.log('Exercise 11 Result: ', odds)
 
 // // Complete Exercise 12 below...
 
-// console.log('Exercise 12 Results:')
-// console.log('  fizz:', fizz)
-// console.log('  buzz:', buzz)
-// console.log('  fizzbuzz:', fizzbuzz)
+// const fizz = []; 
+// for (let i = 0; i < nums.length; i++) {
+//   if (nums[i] % 3 === 0) {
+//     fizz.push(nums[i]);
+//   }
 
+//   const buzz = [];
+//   for (let i = 0; i < nums.length; i++) {
+//     if (nums[i] % 3 === 0) {
+//       buzz.push(nums[i]);
+//     }
+
+//     const fizzbuzz = [];
+//     for (let i = 0; i < nums.length; i++) {
+//       if (nums[i] % 3 === 0) {
+//         fizzbuzz.push(nums[i]);
+//       }
+
+// ok so the above is where i started and then my husband told me I can actually condesnse it to make it more efficient. 
+// I was hesitant but gave it a try and it was cool! I still want to keep the code above so i can reference in the future. - SA
+
+const fizz = []; 
+const buzz = [];
+const fizzbuzz = [];
+
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 3 === 0) {
+    fizz.push(nums[i]);
+  } if (nums[i] % 5 === 0) {
+    buzz.push(nums[i]);
+  } if (nums[i] % 3 === 0 && nums[i] % 5 === 0) {
+    fizzbuzz.push(nums[i]);
+  }
+}
+
+console.log('Exercise 12 Results:')
+console.log('  fizz:', fizz)
+console.log('  buzz:', buzz)
+console.log('  fizzbuzz:', fizzbuzz)
+
+// this link helped me solve this problem! - SA
+// https://stackoverflow.com/questions/31106668/find-if-a-number-is-divisible-by-3-or-5-fizzbuzz
 // /*
 // Exercise 13:
 //   - Given the below numArrays array of arrays (two-dimensional array), assign the last nested array to a variable named numList.
 //   - Assume you don't know how many nested arrays numArrays contains.
 // */
 
-// const numArrays = [
-//   [100, 5, 23],
-//   [15, 21, 72, 9],
-//   [45, 66],
-//   [7, 81, 90]
-// ]
+const numArrays = [
+  [100, 5, 23],
+  [15, 21, 72, 9],
+  [45, 66],
+  [7, 81, 90]
+]
 
 // // Complete Exercise 13 below...
-
+// const numList = []
+// numList.push(numArrays[numArrays.length - 1])
 // console.log('Exercise 13 Result: ', numList)
+
+const numList = numArrays[numArrays.length - 1]
+console.log('Exercise 13 Result: ', numList)
+
 
 // /*
 // Exercise 14:
