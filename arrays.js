@@ -222,4 +222,4 @@ total += numArrays[i][j]
 console.log('Exercise 15 Result: ', total);
 
 
-// I struggled with numbers 11-15. I had help from my sister and brother-in-law (SE). I kind of understand but am still feeling super lost :(
+// I struggled with numbers 11-15. I had help from my sister Sabrina and brother-in-law (SE). I kind of understand but am still feeling super lost :(
