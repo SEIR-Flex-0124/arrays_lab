@@ -57,21 +57,21 @@ Exercise 6:
 // Complete Exercise 6 below...
 //console.log(foods)
 
-foods.splice(2,1, 'sushi','cupcake');
-console.log('Exercise 6 Result: ', foods);
+// foods.splice(2,1, 'sushi','cupcake');
+// console.log('Exercise 6 Result: ', foods);
 
-/*
-Exercise 7:
-  - Use the slice method on the foods array to create a new array containing 'sushi' & 'cupcake'.
-  - Assign the new array to a variable named yummy.
-*/
+// /*
+// Exercise 7:
+//   - Use the slice method on the foods array to create a new array containing 'sushi' & 'cupcake'.
+//   - Assign the new array to a variable named yummy.
+// */
 
-//Complete Exercise 7 below...
+// //Complete Exercise 7 below...
 
-foods.splice(1, 2);
-const yummy = foods.splice(1, 2);
+// foods.splice(1, 2);
+// const yummy = foods.splice(1, 2);
 
-console.log('Exercise 7 Result: ', yummy);
+// console.log('Exercise 7 Result: ', yummy);
 
 // /*Exercise 8:
 //   - Using the indexOf method on the foods array, assign the index of the 'tofu' string to a variable named soyIdx.
@@ -79,13 +79,14 @@ console.log('Exercise 7 Result: ', yummy);
 
 // Complete Exercise 8 below...
 
-// const index = foods.indexOf('tofu');
-// if (index !== -1) {
-//   foods.splice(0, 1);
-// }
-// const soyIdx = foods.splice(0,1);
 
-// console.log('Exercise 8 Result: ', soyIdx);
+const index = foods.indexOf('tofu');
+if (index !== -1) {
+  foods.splice(0, 1);
+}
+const soyIdx = foods.splice(0,1);
+
+console.log('Exercise 8 Result: ', soyIdx);
 
 /*
 Exercise 9:
