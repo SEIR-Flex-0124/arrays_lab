@@ -182,7 +182,7 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
-
+let total =
 
 
 // console.log('Exercise 15 Result: ', total);
