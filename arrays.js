@@ -123,7 +123,18 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
+let odds = [];
 
+// nums.forEach(element => { if(element % 2 !=0) {odds.push(element)}});
+
+nums.forEach(findOdds);
+function findOdds (num) {
+  if (num % 2 === 1) {
+    odds.push(num);
+  }
+}
+
+// I came across these two different codes while googling for help, I went with the second code because it makes a little more sense to me than the first
 
 console.log('Exercise 11 Result: ', odds);
 
@@ -137,7 +148,25 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
-
+let fizz = [];
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 3 === 0) {
+    fizz.push(nums[i]);
+  }
+}
+let buzz = [];
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 5 === 0) {
+    buzz.push(nums[i]);
+  }
+}
+let fizzbuzz = [];
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 15 === 0) {
+    fizzbuzz.push(nums[i]);
+  }
+}
+// had help from a SE family member and google on this
 
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
@@ -159,7 +188,7 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-
+const numList = numArrays[numArrays.length -1]
 
 console.log('Exercise 13 Result: ', numList);
 
@@ -170,7 +199,7 @@ Exercise 14:
 
 // Complete Exercise 14 below...
 
-
+const num = numArrays[2][1]
 
 console.log('Exercise 14 Result: ', num);
 
@@ -182,6 +211,15 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
+let total = 0; 
 
+for(let i = 0; i <numArrays.length; i++) {
+  for(let j = 0; j < numArrays[i].length; j++) {
+total += numArrays[i][j]
+  }
+})
 
 console.log('Exercise 15 Result: ', total);
+
+
+// I struggled with numbers 11-15. I had help from my sister and brother-in-law (SE). I kind of understand but am still feeling super lost :(
