@@ -194,7 +194,7 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-let numList = numArrays[3];
+let numList = numArrays[3]; //Googled to help me find the concept, surprised how simple this was. Basically it's an array of arrays, and I'm accessing the 4th array or the array at index 3. 
 
 console.log('Exercise 13 Result: ', numList);
 
@@ -205,7 +205,7 @@ console.log('Exercise 13 Result: ', numList);
 
 // Complete Exercise 14 below...
 
-let num = numArrays[2][1];
+let num = numArrays[2][1]; //same as above but accessing the array with index 2, and the number at index 1 within that array.
 
 console.log('Exercise 14 Result: ', num);
 
