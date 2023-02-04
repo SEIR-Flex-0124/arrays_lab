@@ -109,8 +109,13 @@ Exercise 10:
 // Complete Exercise 10 below...
 
 
+if (foods.includes('soup')) {
+  hasSoup = true;
+} else {
+  hasSoup = false; 
+}
 
-// console.log('Exercise 10 Result: ', hasSoup);
+console.log('Exercise 10 Result: ', hasSoup);
 
 /*
 Exercise 11:
@@ -124,8 +129,6 @@ Exercise 11:
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
-
-
 
 console.log('Exercise 11 Result: ', odds);
 
