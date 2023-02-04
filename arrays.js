@@ -237,8 +237,8 @@ console.log('Exercise 14 Result: ', num)
 
 // /*
 // Exercise 15:
-//   - Given the above numArrays array, use nested loops to sum up all the numbers contained within numArrays and assign to a variable named total.
-//   - Hint: Be sure to declare and initialize the total variable before the iterations.
+  // - Given the above numArrays array, use nested loops to sum up all the numbers contained within numArrays and assign to a variable named total.
+  // - Hint: Be sure to declare and initialize the total variable before the iterations.
 // */
 
 // // Complete Exercise 15 below...
@@ -249,13 +249,12 @@ console.log('Exercise 14 Result: ', num)
 //   [7, 81, 90]
 // ];
 
-// let total = 0;
+let total = 0;
 
-// for(let i = 0; i <numArrays.length; i++) {
-//   console.log(numArrays[i]);
-//   for(let j = 0; j < numArrays[i].length; j++) {
-// console.log(`j is ${i} and` )
-//   }
-// }
+for(let i = 0; i <numArrays.length; i++) {  
+  for(let j = 0; j < numArrays[i].length; j++) {
+total += numArrays[i][j] // += basically means total = total + numArrays[i][j]; remember total is first defined as 0 in line 252. Then add the new found value to give total.
+  }
+}
 
-// console.log('Exercise 15 Result: ', total)
+console.log('Exercise 15 Result: ', total)
