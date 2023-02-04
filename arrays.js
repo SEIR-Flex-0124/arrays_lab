@@ -139,6 +139,15 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
+let odds= [];
+function oddNumbers(value) {
+  if (value % 2 === 1) {
+    odds.push(value);
+
+  }
+}
+nums.forEach(oddNumbers);
+
 
 
 console.log('Exercise 11 Result: ', odds);
@@ -152,6 +161,29 @@ Exercise 12:
 */
 
 // Complete Exercise 12 below...
+
+let fizz= []
+let buzz= []
+letfizzbuzz=[]
+ 
+function fizzy (value){
+  if (value % 3 === 0){
+    fizz.push(value);
+  }
+  else{
+    if (value % 5=== 0){
+      buzz.push(value);
+    }
+    else{
+      if (value % 3 === 0 && value % 5 === 0){
+        fizzbuzz.push(value)
+      }
+      
+    }
+  }
+}
+
+
 
 
 
@@ -175,6 +207,9 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
+let numList=[]
+numList= numArrays[numArrays.length]
+
 
 
 console.log('Exercise 13 Result: ', numList);
@@ -185,6 +220,8 @@ Exercise 14:
 */
 
 // Complete Exercise 14 below...
+
+
 
 
 
