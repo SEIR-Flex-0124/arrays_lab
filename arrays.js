@@ -106,7 +106,12 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
-let hasSoup = Boolean(soup);
+let hasSoup = false;
+if (foods.includes('soup')) {
+  hasSoup = true;
+} else {
+  hasSoup = false;
+}
 
 console.log('Exercise 10 Result: ', hasSoup);
 
@@ -123,7 +128,14 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
-
+const odds = [];
+for (let i = 0; i <nums.length; i++) {
+  nums[i] % 2 !== 0
+  // if its odd --> push to odd Array
+  if ( nums[i] % 2 !== 0) {
+    odds.push(nums[i])
+  }
+}
 
 console.log('Exercise 11 Result: ', odds);
 
@@ -136,8 +148,20 @@ Exercise 12:
 */
 
 // Complete Exercise 12 below...
+const fizz = [];
+const buzz = [];
+const fizzbuzz = [];
 
-
+nums.forEach((el) => {
+  
+  if (el % 3 == 0 && el % 5 == 0) {
+    fizzbuzz.push(el);
+  }else if (el % 5 == 0) {
+    buzz.push(el);
+  }else if (el % 3 == 0) {
+    fizz.push(el);
+  }
+})
 
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
