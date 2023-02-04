@@ -33,12 +33,9 @@ Exercise 4:
   - Access the string 'pizza' (based upon its known position) in the foods array and assign to a variable named favFood.
 */
 
-// Complete Exercise 4 below...
-// const index = foods.indexOf('pizza');
-// if (index !== -1) {
-//   foods.splice(index,1);
-// }
-// const favFood = foods.splice(index,1);
+//Complete Exercise 4 below...
+foods.splice(0,1);
+let favFood = foods.splice(0,1);
 console.log('Exercise 4 Result: ', favFood);
 
 /*
