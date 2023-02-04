@@ -225,9 +225,13 @@ Exercise 14:
 
 // Complete Exercise 14 below...
 
-let num = [];
+let num = 0;
 for (let i = 0; i<numArrays.length; i++) {
-    
+    for (let j = 0; j<numArrays[i].length;j++) {
+      if (numArrays[i][j] == 66) {
+        num = numArrays[i][j];
+      }
+    }
 }
 
 
