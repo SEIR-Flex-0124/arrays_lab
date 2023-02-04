@@ -95,7 +95,7 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-
+let allFoods = foods.join ()
 
 console.log('Exercise 9 Result: ', allFoods);
 
@@ -106,7 +106,7 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
-
+let hasSoup = Boolean('soup')
 
 console.log('Exercise 10 Result: ', hasSoup);
 
