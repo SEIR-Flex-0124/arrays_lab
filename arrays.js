@@ -15,8 +15,8 @@ Exercise 2:
 */
 
 // Complete Exercise 2 below...
-
-
+foods.push("pizza","cheeseburger");
+console.log(foods);
 
 console.log('Exercise 2 Result: ',  foods);
 
@@ -26,8 +26,8 @@ Exercise 3:
 */
 
 // Complete Exercise 3 below...
-
-
+foods.unshift("taco");
+console.log(foods);
 
 console.log('Exercise 3 Result: ', foods);
 
@@ -38,7 +38,7 @@ Exercise 4:
 
 // Complete Exercise 4 below...
 
-
+let favFood = foods[1];
 
 console.log('Exercise 4 Result: ', favFood);
 
@@ -49,7 +49,7 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
-
+foods.splice(2,0, "tofu");
 
 console.log('Exercise 5 Result: ', foods);
 
@@ -60,7 +60,7 @@ Exercise 6:
 
 // Complete Exercise 6 below...
 
-
+foods.splice(1, 1, "sushi", "cupcake")
 
 console.log('Exercise 6 Result: ', foods);
 
@@ -72,7 +72,7 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
-
+let yummy = foods.slice(1, 3);
 
 console.log('Exercise 7 Result: ', yummy);
 
@@ -83,7 +83,7 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
-
+let soyIdx = foods.indexOf("tofu");
 
 console.log('Exercise 8 Result: ', soyIdx);
 
@@ -95,7 +95,7 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-
+let allFoods = foods.join("->");
 
 console.log('Exercise 9 Result: ', allFoods);
 
@@ -107,6 +107,16 @@ Exercise 10:
 // Complete Exercise 10 below...
 
 
+// if (foods === "soup") { var hasSoup = "true";}
+  let hasSoup = true;
+for (i = 0; i < foods.length; i++){
+console.log(foods[i])
+if(foods[i] === "soup") {
+  console.log("not soup")
+}
+}
+
+// [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
 
 console.log('Exercise 10 Result: ', hasSoup);
 
@@ -115,13 +125,22 @@ Exercise 11:
   - Use either the for, for of, or forEach loops to iterate through the provided nums array and add each odd number to a new array named odds.
   - Some helpful video about looping over arrays
     > https://www.youtube.com/watch?v=JFf6ogtBUdo&t=144s
-    > https://www.youtube.com/watch?v=Yf6whlVj5qA&t=32s
+    > https://www.youtube.com/watch?v=Yf6whlVj5qA&t=32s~
   - Hint: Initialize the odds variable to an empty array before the iteration.
 */
 
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
+
+let odds = [];
+nums.forEach((num) => {
+if (num % 2 === 1) {
+  odds.push(num);
+}
+});
+
+// i still dont really understand how this works, i got this from zoom chat the day that this wass assigned i think. 
 
 
 
@@ -132,10 +151,36 @@ Exercise 12:
   - Use the loop to iterate through the same nums array and add the number to arrays named fizz, buzz and/or fizzbuzz based upon the following:
   	- Add to the fizz array if the number is evenly divisible by 3.
   	- Add to the buzz array if the number is evenly divisible by 5.
-  	- Add to the fizzbuzz array if the number is evenly divisible by 3 & 5.
+  	- Add to the fizzbuzz array if the number is evenly divisible by 3 & 5. (do frist)
 */
 
 // Complete Exercise 12 below...
+// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const buzz = [];
+const fizz = [];
+const fizzbuzz = [];
+
+for (let i = 0; i < nums.length; i++){
+  if (nums[i] % 3 === 0 && nums[i] % 5 === 0){
+    fizzbuzz.push(nums[i])
+  } else if(nums[i] % 3 === 0){
+    fizz.push(nums[i])
+  }else if (nums[i] % 5 === 0){
+    buzz.push(nums[i]) 
+  }
+}
+
+// for (let i = 0; i < nums.length; i++){
+//   if (nums[i] % 5 === 0){
+// buzz.push(nums[i]) 
+//   }
+// }
+
+// for (let i = 0; i < nums.length; i++){
+//   if (nums[i] % 3 === 0){
+//     fizz.push(nums[i])
+//   }
+// }
 
 
 
@@ -157,11 +202,11 @@ const numArrays = [
 	[7, 81, 90]
 ];
 
-// Complete Exercise 13 below...
 
-
-
-console.log('Exercise 13 Result: ', numList);
+let numList = [];
+numList = numArrays[numArrays.length - 1];
+  
+  console.log('Exercise 13 Result: ', numList);
 
 /*
 Exercise 14:
@@ -169,7 +214,16 @@ Exercise 14:
 */
 
 // Complete Exercise 14 below...
+// var num = [];
 
+// for (let i = 0; i < numArrays.length; i++){
+//   if(numArrays[i] === 66){
+//     num.push(numArrays[i])
+//   }
+// }
+let num = [];
+num = 66;
+  
 
 
 console.log('Exercise 14 Result: ', num);
@@ -182,6 +236,6 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
-
+//i am clueless 
 
 console.log('Exercise 15 Result: ', total);
