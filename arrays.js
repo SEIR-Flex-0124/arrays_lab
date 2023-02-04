@@ -34,9 +34,9 @@ Exercise 4:
 */
 
 //Complete Exercise 4 below...
-// foods.splice(0,1);
-// let favFood = foods.splice(0,1);
-// console.log('Exercise 4 Result: ', favFood);
+foods.splice(0,1);
+let favFood = foods.splice(0,1);
+console.log('Exercise 4 Result: ', favFood);
 
 /*
 Exercise 5:
@@ -79,7 +79,11 @@ console.log('Exercise 7 Result: ', yummy);
 
 // Complete Exercise 8 below...
 
-
+// const index = foods.indexOf('tofu');
+// if (index !== -1) {
+//   foods.splice(0, 1);
+// }
+// const soyIdx = foods.splice(0,1);
 
 // console.log('Exercise 8 Result: ', soyIdx);
 
