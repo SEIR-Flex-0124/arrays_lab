@@ -34,9 +34,9 @@ Exercise 4:
 */
 
 //Complete Exercise 4 below...
-foods.splice(0,1);
-let favFood = foods.splice(0,1);
-console.log('Exercise 4 Result: ', favFood);
+// foods.splice(0,1);
+// let favFood = foods.splice(0,1);
+// console.log('Exercise 4 Result: ', favFood);
 
 /*
 Exercise 5:
@@ -46,8 +46,8 @@ Exercise 5:
 // Complete Exercise 5 below...
 
 
-// foods.splice(1,0,'tofu')
-// console.log('Exercise 5 Result: ', foods);
+foods.splice(1,0,'tofu')
+console.log('Exercise 5 Result: ', foods);
 
 /*
 Exercise 6:
