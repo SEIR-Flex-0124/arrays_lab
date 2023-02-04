@@ -129,6 +129,12 @@ Exercise 11:
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
+const odds = [];
+  for (const i=0; i<=arr.length-1; i++){
+     if (arr[i] % 2 == 0 ){
+        odds.push(arr[i]);
+     }
+  }
 
 console.log('Exercise 11 Result: ', odds);
 
@@ -142,8 +148,16 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
-
-
+let fizz = [], buzz = [], fizzbuzz = [];
+for (i =0; i< nums.length; i++){
+  if (nums [i] %3 === 0 && nums [i] %5 === 0){
+    fizzbuzz.push(nums[i]);}
+    if (nums[i] % 3 === 0){
+      fizz.push(nums[i]);}
+    if (nums[1]  %5 === 0) {
+      buzz.push(nums[i]);
+    }
+  }
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
 console.log('  buzz:', buzz);
@@ -164,7 +178,7 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-
+let numList = numArrays[numArrays.length -1];
 
 console.log('Exercise 13 Result: ', numList);
 
@@ -187,6 +201,12 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
+let total = 0;
 
+for(let i =0; i < numArrays.length; i++) {
+  for (let j = 0; j,numArrays[i].length; j++) {
+    total += numArrays[i][j];
+  }
+}
 
 console.log('Exercise 15 Result: ', total);
