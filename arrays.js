@@ -55,10 +55,10 @@ Exercise 6:
 */
 
 // Complete Exercise 6 below...
+//console.log(foods)
 
-
-
-// console.log('Exercise 6 Result: ', foods);
+foods.splice(2,1, 'sushi','cupcake');
+console.log('Exercise 6 Result: ', foods);
 
 /*
 Exercise 7:
@@ -66,11 +66,12 @@ Exercise 7:
   - Assign the new array to a variable named yummy.
 */
 
-// Complete Exercise 7 below...
+//Complete Exercise 7 below...
 
+foods.splice(1, 2);
+const yummy = foods.splice(1, 2);
 
-
-// console.log('Exercise 7 Result: ', yummy);
+console.log('Exercise 7 Result: ', yummy);
 
 // /*Exercise 8:
 //   - Using the indexOf method on the foods array, assign the index of the 'tofu' string to a variable named soyIdx.
