@@ -88,17 +88,18 @@ const soyIdx = foods.splice(0,1);
 
 console.log('Exercise 8 Result: ', soyIdx);
 
-/*
-Exercise 9:
-  - Assign to a variable named allFoods the result of joining the strings in the foods array such that the result is the following single string:
-    'taco -> sushi -> cupcake -> tofu -> cheeseburger'
-*/
+// /*
+// // Exercise 9:
+//   - Assign to a variable named allFoods the result of joining the strings in the foods array such that the result is the following single string:
+//     'taco -> sushi -> cupcake -> tofu -> cheeseburger'
 
 // Complete Exercise 9 below...
 
+foods.push('taco', 'sushi', 'cupcake','tofu','cheeseburger');
+let allFoods= foods.join('->');
 
+console.log('Exercise 9 Result: ', allFoods);
 
-// console.log('Exercise 9 Result: ', allFoods);
 
 /*
 Exercise 10:
