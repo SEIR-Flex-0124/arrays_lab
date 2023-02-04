@@ -121,11 +121,20 @@ console.log('Exercise 10 Result: ', hasSoup)
 //   - Hint: Initialize the odds variable to an empty array before the iteration.
 // */
 
-// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90]
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90]
+
+// for value ending in 1, 3, 5, 7, 9
+// or for value not divisble by 2 
+// if nums[i] %2
 
 // // Complete Exercise 11 below...
-
-// console.log('Exercise 11 Result: ', odds)
+const odds = [];
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 == 1) {
+    odds.push(nums[i]);
+  }
+}
+console.log('Exercise 11 Result: ', odds)
 
 // /*
 // Exercise 12:
