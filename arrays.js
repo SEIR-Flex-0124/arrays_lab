@@ -170,7 +170,9 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
-
+let fizz = nums.filter((num) => num % 3 === 0);
+let buzz = nums.filter((num) => num % 5 === 0);
+let fizzbuzz = nums.filter((num) => num % 3 === 0) && nums.filter((num) => num % 5 === 0);
 
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
@@ -192,18 +194,18 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-
+let numList = numArrays[3];
 
 console.log('Exercise 13 Result: ', numList);
 
-/*
-Exercise 14:
-  - Given the above numArrays array, access the number 66 and assign to a variable named num.
-*/
+
+//Exercise 14:
+//  - Given the above numArrays array, access the number 66 and assign to a variable named num.
+
 
 // Complete Exercise 14 below...
 
-
+let num = numArrays[2][1];
 
 console.log('Exercise 14 Result: ', num);
 
