@@ -223,6 +223,16 @@ const num = numArrays[2][1]
 console.log('Exercise 14 Result: ', num)
 
 // or is there another way to access the number 66 by using a for let loop? or a truth value? -sa
+// so my husband came up with this code and explained it to me and i get it but still fully trying to understand it but keeping here so i can look back the future: 
+
+// for (let i = 0; i <numArrays.length; i++) { //this line loops through numArrays
+//   for (let j = 0; j < numArrays[i].length; j++) { //this line loops through, (numArrays[i]), the index of numArrays 
+//     if (numArrays[i][j] === 66) { //this condition, (numArrays[i][j]), checks if the value of the index of the index of numArrays is equal to 66 
+//       let num = numArrays[i][j] //this declares that num equals(numArrays[i][j]) if it equals to 66
+//       console.log('Exercise 14 Result: ', num)
+//     }
+//   }
+// }
 
 
 // /*
@@ -238,10 +248,11 @@ console.log('Exercise 14 Result: ', num)
 //   [45, 66],
 //   [7, 81, 90]
 // ];
+
 // let total = 0;
 
 // for(let i = 0; i <numArrays.length; i++) {
-//   // console.log(numArrays[i]);
+//   console.log(numArrays[i]);
 //   for(let j = 0; j < numArrays[i].length; j++) {
 // console.log(`j is ${i} and` )
 //   }
