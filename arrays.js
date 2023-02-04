@@ -219,8 +219,11 @@ console.log('Exercise 13 Result: ', numList)
 // */
 
 // // Complete Exercise 14 below...
+const num = numArrays[2][1]
+console.log('Exercise 14 Result: ', num)
 
-// console.log('Exercise 14 Result: ', num)
+// or is there another way to access the number 66 by using a for let loop? or a truth value? -sa
+
 
 // /*
 // Exercise 15:
