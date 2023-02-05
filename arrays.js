@@ -189,8 +189,8 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-const numList = numArrays.map(e => e.at(-1));
-console.log(...numList);
+const numList = numArrays.at([-1]);
+console.log(numList);
 
 
 
@@ -203,7 +203,7 @@ Exercise 14:
 
 // Complete Exercise 14 below...
 
-let num = [numArrays[2][1]];
+const num = numArrays[2][1];
 
 
 console.log('Exercise 14 Result: ', num);
@@ -217,7 +217,7 @@ Exercise 15:
 // Complete Exercise 15 below...
 let total = 0
 for(let i = 0; i < numArrays.length; i++){
-  console.log(numArrays[i]);
+  // console.log[i]
   for(let j = 0; j < numArrays[i].length; j++){
     total += numArrays[i][j];
   }
