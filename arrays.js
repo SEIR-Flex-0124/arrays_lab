@@ -189,7 +189,8 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-const numList = numArrays.map(e => e.at)
+const numList = numArrays.map(e => e.at(-1));
+console.log(...numList);
 
 
 
@@ -202,13 +203,11 @@ Exercise 14:
 
 // Complete Exercise 14 below...
 
-let num=[];
-for(let i=0; i<numArrays.length; i++){
-if(numArrays == 66)
-num.push(numArrays[i])
+let num = [numArrays[2][1]];
+
 
 console.log('Exercise 14 Result: ', num);
-}
+
 /*
 Exercise 15:
   - Given the above numArrays array, use nested loops to sum up all the numbers contained within numArrays and assign to a variable named total.
