@@ -209,6 +209,7 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
+let total =[]
 
 
 
