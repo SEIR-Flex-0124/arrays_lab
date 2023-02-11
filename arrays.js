@@ -142,7 +142,7 @@ Exercise 12:
 */
 
 // Complete Exercise 12 below...
-const = [fizz]
+
 
 
 
