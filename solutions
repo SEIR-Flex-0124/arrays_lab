@@ -1,0 +1,1016 @@
+                 ^
+
+ReferenceError: soyIdx is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:86:18)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+/Users/aaronyorks/arrays_lab/arrays.js:100
+console.log('Exercise 9 Result: ', allFoods);
+                                   ^
+
+ReferenceError: allFoods is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:100:36)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  []
+/Users/aaronyorks/arrays_lab/arrays.js:111
+console.log('Exercise 10 Result: ', hasSoup);
+                                    ^
+
+ReferenceError: hasSoup is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:111:37)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+/Users/aaronyorks/arrays_lab/arrays.js:98
+const allFoods= foods("taco", "sushi", "cupcake", "tofu", "cheeseburger");
+                ^
+
+TypeError: foods is not a function
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:98:17)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+/Users/aaronyorks/arrays_lab/arrays.js:111
+console.log('Exercise 10 Result: ', hasSoup);
+                                    ^
+
+ReferenceError: hasSoup is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:111:37)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+/Users/aaronyorks/arrays_lab/arrays.js:128
+console.log('Exercise 11 Result: ', odds);
+                                    ^
+
+ReferenceError: odds is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:128:37)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js 
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  true
+/Users/aaronyorks/arrays_lab/arrays.js:128
+console.log('Exercise 11 Result: ', odds);
+                                    ^
+
+ReferenceError: odds is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:128:37)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+/Users/aaronyorks/arrays_lab/arrays.js:109
+const hasSoup= foods.includes(soup, 0);
+                              ^
+
+ReferenceError: soup is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:109:31)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+/Users/aaronyorks/arrays_lab/arrays.js:109
+const hasSoup= foods.indexOf(soup,0);
+                             ^
+
+ReferenceError: soup is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:109:30)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+/Users/aaronyorks/arrays_lab/arrays.js:109
+const hasSoup= foods.includes(soup,0);
+                              ^
+
+ReferenceError: soup is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:109:31)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+/Users/aaronyorks/arrays_lab/arrays.js:128
+console.log('Exercise 11 Result: ', odds);
+                                    ^
+
+ReferenceError: odds is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:128:37)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:127
+const nums = Object.values(odds);
+      ^
+
+SyntaxError: Identifier 'nums' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:192
+
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:129
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:129
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:129
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:129
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:129
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:129
+} else { continue
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:129
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:129
+  }
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:148
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:148:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:148
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:148:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:148
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:148:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:148
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:148:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+/Users/aaronyorks/arrays_lab/arrays.js:130
+  if (i % 1 === 0)
+  ^
+
+ReferenceError: i is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:130:3)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:130
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:130
+  else {continue}
+  ^^^^
+
+SyntaxError: Unexpected token 'else'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:130
+} else {continue}
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+/Users/aaronyorks/arrays_lab/arrays.js:129
+  if (i % 1 = 0)
+      ^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1166:20)
+    at Module._compile (node:internal/modules/cjs/loader:1210:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 11 Result:  []
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 11 Result:  []
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 11 Result:  []
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ node arrays.js
+Exercise 1 Result:  []
+Exercise 2 Result:  [ 'pizza', 'cheeseburger' ]
+Exercise 3 Result:  [ 'taco', 'pizza', 'cheeseburger' ]
+Exercise 4 Result:  1
+Exercise 5 Result:  [ 'taco', 'pizza', 'tofu', 'cheeseburger' ]
+Exercise 6 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 7 Result:  [ 'sushi', 'cupcake' ]
+Exercise 8 Result:  1
+Exercise 9 Result:  [ 'taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger' ]
+Exercise 10 Result:  false
+Exercise 11 Result:  [
+  5, 23, 15, 21,
+  9, 45,  7, 81
+]
+Exercise 12 Results:
+/Users/aaronyorks/arrays_lab/arrays.js:149
+console.log('  fizz:', fizz);
+                       ^
+
+ReferenceError: fizz is not defined
+    at Object.<anonymous> (/Users/aaronyorks/arrays_lab/arrays.js:149:24)
+    at Module._compile (node:internal/modules/cjs/loader:1246:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)
+    at Module.load (node:internal/modules/cjs/loader:1103:32)
+    at Module._load (node:internal/modules/cjs/loader:942:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.5.0
+➜  arrays_lab git:(main) ✗ touch solutions
+➜  arrays_lab git:(main) ✗   

@@ -16,7 +16,7 @@ Exercise 2:
 
 // Complete Exercise 2 below...
 
-
+foods.push("pizza", "cheeseburger");
 
 console.log('Exercise 2 Result: ',  foods);
 
@@ -27,7 +27,7 @@ Exercise 3:
 
 // Complete Exercise 3 below...
 
-
+foods.unshift("taco");
 
 console.log('Exercise 3 Result: ', foods);
 
@@ -38,7 +38,7 @@ Exercise 4:
 
 // Complete Exercise 4 below...
 
-
+ var favFood= foods.indexOf("pizza");
 
 console.log('Exercise 4 Result: ', favFood);
 
@@ -49,7 +49,7 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
-
+foods.splice(2, 0, "tofu");
 
 console.log('Exercise 5 Result: ', foods);
 
@@ -60,7 +60,7 @@ Exercise 6:
 
 // Complete Exercise 6 below...
 
-
+foods.splice(1, 1, "sushi", "cupcake");
 
 console.log('Exercise 6 Result: ', foods);
 
@@ -72,7 +72,7 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
-
+const yummy= foods.splice(1,2);
 
 console.log('Exercise 7 Result: ', yummy);
 
@@ -83,7 +83,7 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
-
+const soyIdx= foods.indexOf("tofu");
 
 console.log('Exercise 8 Result: ', soyIdx);
 
@@ -95,7 +95,7 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-
+const allFoods= ["taco", "sushi", "cupcake", "tofu", "cheeseburger"];
 
 console.log('Exercise 9 Result: ', allFoods);
 
@@ -106,7 +106,7 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
-
+const hasSoup= foods.includes("soup", 0);
 
 console.log('Exercise 10 Result: ', hasSoup);
 
@@ -123,9 +123,15 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
+const odds = [];
+
+for(let i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 !== 0)
+ odds.push(nums[i]);
+}
 
 
-console.log('Exercise 11 Result: ', odds);
+  console.log('Exercise 11 Result: ', odds);
 
 /*
 Exercise 12:
@@ -136,6 +142,7 @@ Exercise 12:
 */
 
 // Complete Exercise 12 below...
+
 
 
 
@@ -185,3 +192,6 @@ Exercise 15:
 
 
 console.log('Exercise 15 Result: ', total);
+
+
+// I accidentally deleted this homework days ago and when redoing it I only got to question 12. 12-15 were really difficualt, Can you help? 
