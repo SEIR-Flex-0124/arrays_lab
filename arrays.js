@@ -217,7 +217,7 @@ for(let i = 0; i <numArrays.length; i++) {
   for(let j = 0; j < numArrays[i].length; j++) {
 total += numArrays[i][j]
   }
-})
+}
 
 console.log('Exercise 15 Result: ', total);
 
