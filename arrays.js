@@ -57,8 +57,8 @@ Exercise 6:
 // Complete Exercise 6 below...
 //console.log(foods)
 
-// foods.splice(2,1, 'sushi','cupcake');
-// console.log('Exercise 6 Result: ', foods);
+foods.splice(2,1, 'sushi','cupcake');
+console.log('Exercise 6 Result: ', foods);
 
 // /*
 // Exercise 7:
@@ -68,10 +68,8 @@ Exercise 6:
 
 // //Complete Exercise 7 below...
 
-// foods.splice(1, 2);
-// const yummy = foods.splice(1, 2);
-
-// console.log('Exercise 7 Result: ', yummy);
+const yummy = foods.splice(2,2);
+console.log('Exercise 7 Result: ', yummy);
 
 // /*Exercise 8:
 //   - Using the indexOf method on the foods array, assign the index of the 'tofu' string to a variable named soyIdx.
@@ -130,9 +128,9 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 const odds = [];
-  for (const i=0; i<=arr.length-1; i++){
-     if (arr[i] % 2 == 0 ){
-        odds.push(arr[i]);
+  for (const num of nums) {
+     if (num % 2 === 1) {
+        odds.push(num);
      }
   }
 
@@ -188,9 +186,7 @@ Exercise 14:
 */
 
 // Complete Exercise 14 below...
-
-
-
+let num = numArrays[2];
 console.log('Exercise 14 Result: ', num);
 
 /*
@@ -209,4 +205,4 @@ for(let i =0; i < numArrays.length; i++) {
   }
 }
 
-console.log('Exercise 15 Result: ', total);
+console.log('Exercise 15 Result: ', total)
