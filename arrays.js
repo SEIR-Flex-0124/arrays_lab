@@ -186,7 +186,7 @@ Exercise 14:
 */
 
 // Complete Exercise 14 below...
-let num = numArrays[2];
+let num = numArrays[2][1];
 console.log('Exercise 14 Result: ', num);
 
 /*
@@ -198,11 +198,9 @@ Exercise 15:
 // Complete Exercise 15 below...
 
 let total = 0;
-
 for(let i =0; i < numArrays.length; i++) {
   for (let j = 0; j,numArrays[i].length; j++) {
     total += numArrays[i][j];
   }
 }
-
 console.log('Exercise 15 Result: ', total)
