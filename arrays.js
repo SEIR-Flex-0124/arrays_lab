@@ -199,7 +199,7 @@ Exercise 15:
 
 let total = 0;
 for(let i =0; i < numArrays.length; i++) {
-  for (let j = 0; j,numArrays[i].length; j++) {
+  for (let j = 0; j<numArrays[i].length; j++) {
     total += numArrays[i][j];
   }
 }
