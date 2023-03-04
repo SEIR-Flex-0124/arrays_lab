@@ -7,8 +7,7 @@ Exercise 1:
 
 const foods = [];
 
-console.log('Exercise 1 Result: ', foods);
-
+console.log("Exercise 1 Result: ", foods);
 
 /*
 Exercise 2:
@@ -16,11 +15,9 @@ Exercise 2:
 */
 
 // Complete Exercise 2 below...
-const foods = ["pizza", "cheeseburger"]
+foods.push("pizza", "cheeseburger");
 
-
-
-console.log('Exercise 2 Result: ',  foods);
+console.log("Exercise 2 Result: ", foods);
 
 /*
 Exercise 3:
@@ -28,13 +25,10 @@ Exercise 3:
 */
 
 // Complete Exercise 3 below...
-const foods = ["pizza", "cheeseburger"]
 
 foods.unshift("taco");
 
-
-console.log('Exercise 3 Result: ', foods);
-
+console.log("Exercise 3 Result: ", foods);
 
 /*
 Exercise 4:
@@ -42,11 +36,9 @@ Exercise 4:
 */
 
 // Complete Exercise 4 below...
-let favFood = foods.indexOf ["pizza"];
+let favFood = foods.indexOf("pizza");
 
-
-
-console.log('Exercise 4 Result: ', favFood);
+console.log("Exercise 4 Result: ", favFood);
 
 /*
 Exercise 5:
@@ -54,11 +46,9 @@ Exercise 5:
 */
 
 // Complete Exercise 5 below...
-foods.splice (0, 2, "tofu");
+foods.splice(2, 0, "tofu");
 
-
-
-console.log('Exercise 5 Result: ', foods);
+console.log("Exercise 5 Result: ", foods);
 
 /*
 Exercise 6:
@@ -66,10 +56,9 @@ Exercise 6:
 */
 
 // Complete Exercise 6 below...
-foods.splice(1, 1, ["sushi", "cupcake"]);
+foods.splice(1, 1, "sushi", "cupcake");
 
-
-console.log('Exercise 6 Result: ', foods);
+console.log("Exercise 6 Result: ", foods);
 
 /*
 Exercise 7:
@@ -79,11 +68,9 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
-const yummy= foods.slice(1,3);
+const yummy = foods.slice(1, 3);
 
-
-
-console.log('Exercise 7 Result: ', yummy);
+console.log("Exercise 7 Result: ", yummy);
 
 /*
 Exercise 8:
@@ -92,11 +79,9 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
-const soyIdx= foods.indexOf("tofu");
+const soyIdx = foods.indexOf("tofu");
 
-
-
-console.log('Exercise 8 Result: ', soyIdx);
+console.log("Exercise 8 Result: ", soyIdx);
 
 /*
 Exercise 9:
@@ -106,11 +91,10 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-const allFoods= taco + sushi + cupcake + tofu + cheeseburger;
+//const allFoods= taco + sushi + cupcake + tofu + cheeseburger;
+const allFoods = foods.join(" -> ");
 
-
-
-console.log('Exercise 9 Result: ', allFoods);
+console.log("Exercise 9 Result: ", allFoods);
 
 /*
 Exercise 10:
@@ -119,12 +103,10 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
-const hasSoup= foods.includes(soup, 0)
+const hasSoup = foods.includes("soup");
 // found ansswer to this online but don't really understand it
 
-
-
-console.log('Exercise 10 Result: ', hasSoup);
+console.log("Exercise 10 Result: ", hasSoup);
 
 /*
 Exercise 11:
@@ -139,18 +121,15 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
-let odds= [];
+let odds = [];
 function oddNumbers(value) {
   if (value % 2 === 1) {
     odds.push(value);
-
   }
 }
 nums.forEach(oddNumbers);
 
-
-
-console.log('Exercise 11 Result: ', odds);
+console.log("Exercise 11 Result: ", odds);
 
 /*
 Exercise 12:
@@ -162,35 +141,29 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
-let fizz= []
-let buzz= []
-letfizzbuzz=[]
- 
-function fizzy (value){
-  if (value % 3 === 0){
-    fizz.push(value);
-  }
-  else{
-    if (value % 5=== 0){
-      buzz.push(value);
+let fizz = [];
+let buzz = [];
+let fizzbuzz = [];
+
+function fizzy(value) {
+  for (let i = 0; i < value.length; i++) {
+    if (value[i] % 3 === 0) {
+      fizz.push(value[i]);
+    } else if (value[i] % 5 === 0) {
+      buzz.push(value[i]);
     }
-    else{
-      if (value % 3 === 0 && value % 5 === 0){
-        fizzbuzz.push(value)
-      }
-      
+    if (value[i] % 3 === 0 && value[i] % 5 === 0) {
+      fizzbuzz.push(value[i]);
     }
   }
 }
 
+fizzy(nums);
 
-
-
-
-console.log('Exercise 12 Results:');
-console.log('  fizz:', fizz);
-console.log('  buzz:', buzz);
-console.log('  fizzbuzz:', fizzbuzz);
+console.log("Exercise 12 Results:");
+console.log("  fizz:", fizz);
+console.log("  buzz:", buzz);
+console.log("  fizzbuzz:", fizzbuzz);
 
 /*
 Exercise 13:
@@ -199,20 +172,18 @@ Exercise 13:
 */
 
 const numArrays = [
-	[100, 5, 23],
-	[15, 21, 72, 9],
-	[45, 66],
-	[7, 81, 90]
+  [100, 5, 23],
+  [15, 21, 72, 9],
+  [45, 66],
+  [7, 81, 90],
 ];
 
 // Complete Exercise 13 below...
 
-let numList=[]
-numList= numArrays[numArrays.length]
+let numList = [];
+numList = numArrays[numArrays.length - 1];
 
-
-
-console.log('Exercise 13 Result: ', numList);
+console.log("Exercise 13 Result: ", numList);
 
 /*
 Exercise 14:
@@ -220,12 +191,9 @@ Exercise 14:
 */
 
 // Complete Exercise 14 below...
+const num = numArrays[2][1];
 
-
-
-
-
-console.log('Exercise 14 Result: ', num);
+console.log("Exercise 14 Result: ", num);
 
 /*
 Exercise 15:
@@ -235,6 +203,11 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
+let total = 0;
+for (let i = 0; i < numArrays.length; i++) {
+  for (let j = 0; j < numArrays[i].length; j++) {
+    total += numArrays[i][j];
+  }
+}
 
-
-console.log('Exercise 15 Result: ', total);
+console.log("Exercise 15 Result: ", total);
