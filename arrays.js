@@ -216,24 +216,25 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
-// let total = 0
-// console.log(numArrays)
-// for(let i = 0; i < numArrays[]; i++){
-//   console.log(numArrays[i])
-//   for (let j = 0; j < numArrays[i]; j++){
-//     total += numArrays[i][j]
-//   }
-
-// }
+let total = 0
+console.log('hello')
+console.log(numArrays)
+console.log(numArrays[0])
+for (let i = 0; i < numArrays.length; i++){
+  console.log(numArrays[i])
+  for (let j = 0; j < numArrays[i].length; j++){
+    total += numArrays[i][j]
+  }
+}
 
                // Got this solution online. I understand how 
                // how it works however I still want to learn why above nested for-
                // loop dosen't work
 
-numArrays.forEach((row) => {
-  row.forEach((element) => {
-    total += element;
-  });
-});
+// numArrays.forEach((row) => {
+//   row.forEach((element) => {
+//     total += element;
+//   });
+// });
 
 console.log('Exercise 15 Result: ', total);
